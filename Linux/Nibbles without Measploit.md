@@ -9,5 +9,8 @@ Nmap -sC -sV -T4 -A -O -oA Nibbles -p- 10.10.10.75
 
 ![Nibbles_nmap](https://user-images.githubusercontent.com/55708909/91444243-172e4900-e892-11ea-9202-c1ea07dc12b4.png)
 
+When i started enumerating port 80 in the source code i saw directory name /nibbleblog/ i look into it and found it that it is 
+powered by Nibbleblog
+
 
 
