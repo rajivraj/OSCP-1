@@ -34,6 +34,8 @@ now open a netcat session at port 4444 and run the exploit using these commands 
 
 Here we have a netcat session from target machine.
 
+![Blue_shell](https://user-images.githubusercontent.com/55708909/91410383-76756480-e864-11ea-8f11-642241382da9.png)
+
 
 
 
