@@ -23,6 +23,10 @@ As soon as i click on phpbash.php i get a shell on the box
 
 ![Bashed_shell](https://user-images.githubusercontent.com/55708909/91442376-60c96480-e88f-11ea-904a-8dd5294eef01.png)
 
+![Bashed_flag_1](https://user-images.githubusercontent.com/55708909/91442744-f2d16d00-e88f-11ea-8573-b07afe19a6a6.png)
+
+
+
 
 
 
