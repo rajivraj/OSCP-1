@@ -5,7 +5,8 @@ Legacy without Metasploit:
 
 
 Starting with Nmap Scan :
-Nmap -sC -sV -T4 -A -O -oA Legacy -p- 10.10.10.3
+
+Nmap -sC -sV -T4 -A -O -oA Lame -p- 10.10.10.3
 
 ![Lame_nmap](https://user-images.githubusercontent.com/55708909/91425616-01f8f080-e879-11ea-9f03-d54ed3ca7e24.png)
 
