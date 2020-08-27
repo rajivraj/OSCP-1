@@ -18,6 +18,12 @@ Exploited it using payload : admin'#  & we are in .
 
 ![Cronos_code_execution](https://user-images.githubusercontent.com/55708909/91451522-21087a00-e89b-11ea-8f7f-47bb38f3b69e.png)
 
+Now we are going to upload a reverse shell using nc. The payload should be URL encoded CTRL + U and then send it and we will get
+
+reverse shell.
+
+
+
 
 
 
