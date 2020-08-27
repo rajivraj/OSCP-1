@@ -9,6 +9,16 @@ Nmap -sC -sV -T4 -A -O -oA Legacy -p- 10.10.10.40
 
 Since basic tools doesn't work therefore again i run nmap vulnerability scan its a kind of methodolgy which is helpful for me.
 
+![Blue_vuln](https://user-images.githubusercontent.com/55708909/91407940-a91d5e00-e860-11ea-9af1-7b89d7ce97fb.png)
+
+
+Nmap found only one vulnerability that is eternal blue so we are going to exploit it.
+
+
+git clone https://github.com/helviojunior/MS17-010.git
+
+cd MS17-010
+
 
 
 
