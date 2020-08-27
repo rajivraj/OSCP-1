@@ -10,3 +10,4 @@ Nmap -sC -sV -T4 -A -O -oA Legacy -p- 10.10.10.4
  1-Port 139
  2-Port 445
 
+Therefore we will enumerate these ports.
