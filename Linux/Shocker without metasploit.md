@@ -6,4 +6,7 @@ Starting with Nmap Scan :
 
 Nmap -sC -sV -T4 -A -O -oA Shocker -p- 10.10.10.56
 
+![Shocker_nmap](https://user-images.githubusercontent.com/55708909/91436808-76865c00-e886-11ea-9731-23077e3b354f.png)
+
+
 
