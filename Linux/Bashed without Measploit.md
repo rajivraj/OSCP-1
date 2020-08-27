@@ -25,6 +25,11 @@ As soon as i click on phpbash.php i get a shell on the box
 
 ![Bashed_flag_1](https://user-images.githubusercontent.com/55708909/91442744-f2d16d00-e88f-11ea-8573-b07afe19a6a6.png)
 
+Switch to script manager and after detail inspection i found out file test.py under /scripts
+
+As per the file contents test.py is writing test.txt and therefore this will be our attack vector change the contents of test.py with 
+python reverse shell from pentest monkey and you wait for it to execute you will be as root
+
 
 
 
