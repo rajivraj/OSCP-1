@@ -15,3 +15,10 @@ I tried using basic tools but nothing seems to work so i run a vulnerability sca
 
 ![Legacy_vuln](https://user-images.githubusercontent.com/55708909/91391388-46739480-e857-11ea-95d0-1d3943d45251.png)
 
+Nmap found us two vulnerability which can be exploited. 
+
+1-MS08-067
+
+
+2-MS17-010 (Eternal Blue)
+
