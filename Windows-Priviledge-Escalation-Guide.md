@@ -17,3 +17,13 @@ wget https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite/b
 2- Sherlock 
 
 wget https://raw.githubusercontent.com/rasta-mouse/Sherlock/master/Sherlock.ps1
+
+3- Watson 
+
+git clone https://github.com/rasta-mouse/Watson.git
+
+4- JAWS
+
+git clone https://github.com/411Hall/JAWS.git
+
+
