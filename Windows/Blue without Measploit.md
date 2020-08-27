@@ -36,6 +36,11 @@ Here we have a netcat session from target machine.
 
 ![Blue_shell](https://user-images.githubusercontent.com/55708909/91410383-76756480-e864-11ea-8f11-642241382da9.png)
 
+Flags:
+
+![Blue_flags](https://user-images.githubusercontent.com/55708909/91410690-e7b51780-e864-11ea-88eb-0a6fdda131c6.png)
+
+
 
 
 
