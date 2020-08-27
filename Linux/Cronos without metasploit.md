@@ -16,6 +16,9 @@ Exploited it using payload : admin'#  & we are in .
 
 ![Cronos_admin](https://user-images.githubusercontent.com/55708909/91450307-c7538000-e899-11ea-915d-a7ae89dcf6d3.png)
 
+![Cronos_code_execution](https://user-images.githubusercontent.com/55708909/91451522-21087a00-e89b-11ea-8f7f-47bb38f3b69e.png)
+
+
 
 
 
