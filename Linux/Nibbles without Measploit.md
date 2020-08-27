@@ -35,6 +35,21 @@ We will get a reverse shell.
 
 ![Nibbles_shell_2](https://user-images.githubusercontent.com/55708909/91446334-f7e4eb00-e894-11ea-83e1-679d441e0b66.png)
 
+As we ran sudo -l we get this as per this we can execute monitor.sh with root priviledges
+
+first create personal directory and then stuff director, inside stuff director upload monitor.sh file 
+
+monitor.sh
+
+#!/bin/bash
+
+bash
+
+Finally run this command
+
+sudo ./monitor.sh
+
+you will have root priviledges
 
 
 
