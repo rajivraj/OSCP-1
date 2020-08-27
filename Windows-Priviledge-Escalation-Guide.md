@@ -26,4 +26,10 @@ git clone https://github.com/rasta-mouse/Watson.git
 
 git clone https://github.com/411Hall/JAWS.git
 
+5- Windows exploit suggester
+
+git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git
+
+
+
 
