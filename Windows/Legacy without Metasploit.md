@@ -11,6 +11,8 @@ Nmap -sC -sV -T4 -A -O -oA Legacy -p- 10.10.10.4
  2-Port 445
 
 Therefore we will enumerate these ports.
+
+
 I tried using basic tools but nothing seems to work so i run a vulnerability scan using nmap
 
 ![Legacy_vuln](https://user-images.githubusercontent.com/55708909/91391388-46739480-e857-11ea-95d0-1d3943d45251.png)
