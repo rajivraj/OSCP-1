@@ -27,6 +27,8 @@ Here we have a reverse shell from target machine
 
 ![Devel_flag](https://user-images.githubusercontent.com/55708909/91415706-11257180-e86c-11ea-8324-b812e92cbe25.png)
 
+After shell will copy systeminfo and ran windows-exploit-suggester.py it kind of recommended MS11-046.exe exploit so i transfer the exploit the same way i did the shell.aspx file and run MS11-046.exe and get root access to the target machine
+
 
 
 
