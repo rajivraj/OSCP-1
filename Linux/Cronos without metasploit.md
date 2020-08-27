@@ -24,6 +24,14 @@ reverse shell.
 
 ![Cronos_shell](https://user-images.githubusercontent.com/55708909/91451956-a0964900-e89b-11ea-8949-eba4daebd011.png)
 
+As i ran Linenum i found artisan file running as cron job it was in php format and there with write permission 
+
+I change it with my version of php file and we got a shell
+
+we are now as root
+
+
+
 
 
 
