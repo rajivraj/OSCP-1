@@ -15,11 +15,6 @@ Since basic tools doesn't work therefore again i run nmap vulnerability scan its
 Nmap found only one vulnerability that is eternal blue so we are going to exploit it.
 
 
-git clone https://github.com/helviojunior/MS17-010.git
-
-cd MS17-010
-
-
 
 
 
