@@ -27,6 +27,11 @@ https://wikihak.com/how-to-upload-a-shell-in-nibbleblog-4-0-3/
 
 As per this go into plugins and then into my-image ==configure and the upload image.php with reverse shell code and execute it
 
+http://localhost/nibbleblog/content/private/plugins/my_image/image.php  
+
+We will get a reverse shell.
+
+
 
 
 
