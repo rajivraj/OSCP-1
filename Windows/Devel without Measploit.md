@@ -13,6 +13,10 @@ FTP anonymous login is allowed
 
 ![Devel_ftp](https://user-images.githubusercontent.com/55708909/91413595-fb627d00-e868-11ea-9607-ee58e55352cc.png)
 
+Found out that FTP & WEB server is on the same path therefore if we upload a shell from FTP we will be able to execute through web server and get reverse shell
+
+
+
 
 
 
