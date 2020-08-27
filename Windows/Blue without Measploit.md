@@ -14,6 +14,9 @@ Since basic tools doesn't work therefore again i run nmap vulnerability scan its
 
 Nmap found only one vulnerability that is eternal blue so we are going to exploit it.
 
+![Blue_exploit](https://user-images.githubusercontent.com/55708909/91408457-8b042d80-e861-11ea-90ee-cb9a68007cd4.png)
+
+
 
 
 
