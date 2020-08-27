@@ -29,6 +29,11 @@ in short the exploit first upload a netcat on windows machine and then with the 
 
 We ran windows-exploit-suggester.py and find possible exploit MS16-098
 
+Flags:
+
+![Optimum_flags](https://user-images.githubusercontent.com/55708909/91424701-c578c500-e877-11ea-9973-13572c901c35.png)
+
+
 
 
 
