@@ -24,6 +24,9 @@ edit 42315.py files
 
 ![42315_PART_1](https://user-images.githubusercontent.com/55708909/91409346-eaaf0880-e862-11ea-8b35-88a345bb3cf7.png)
 
+![42315_PART_2](https://user-images.githubusercontent.com/55708909/91409465-103c1200-e863-11ea-8e7d-b6e316b7b6fb.png)
+
+
 
 
 
