@@ -39,6 +39,11 @@ Run these command : python send_and_execute.py 10.10.10.4 shell.exe and you will
 ![Legacy_shell](https://user-images.githubusercontent.com/55708909/91396814-f39adc80-e858-11ea-8a21-c25fa68f1066.png)
 
 
+Since it does not have whoami features therefore we will upload nc.exe from our machine to target machine and get it executed.
+
+
+
+
 
 
 
