@@ -21,6 +21,10 @@ I ran gobuster and find interesting files one of them is dev which further conta
 
 As soon as i click on phpbash.php i get a shell on the box 
 
+![Bashed_shell](https://user-images.githubusercontent.com/55708909/91442376-60c96480-e88f-11ea-904a-8dd5294eef01.png)
+
+
+
 
 
 
