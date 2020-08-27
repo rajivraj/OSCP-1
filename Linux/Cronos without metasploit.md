@@ -22,6 +22,9 @@ Now we are going to upload a reverse shell using nc. The payload should be URL e
 
 reverse shell.
 
+![Cronos_shell](https://user-images.githubusercontent.com/55708909/91451956-a0964900-e89b-11ea-8949-eba4daebd011.png)
+
+
 
 
 
