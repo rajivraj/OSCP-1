@@ -24,3 +24,9 @@ Nmap found us two vulnerability which can be exploited.
 
 2-MS17-010 (Eternal Blue)
 
+I will be exploiting eternal blue using custom exploits from this git repo 
+
+git clone https://github.com/helviojunior/MS17-010.git
+
+
+
