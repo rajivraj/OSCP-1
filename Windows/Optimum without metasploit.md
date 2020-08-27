@@ -20,6 +20,12 @@ searchsploit 39161.py
 
 ![Optimum_39161](https://user-images.githubusercontent.com/55708909/91421787-fbb44580-e873-11ea-86fa-deafcf23af24.png)
 
+As per the exploit we need to run a netcat (windows version) and the run the exploit and then only we will get reverse connection from netcat 
+
+in short the exploit first upload a netcat on windows machine and then with the help of netcat we get reverse connection
+
+
+
 
 
 
