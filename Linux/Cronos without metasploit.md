@@ -8,3 +8,14 @@ Nmap -sC -sv -T4 -A -O -oA Cronos -p- 10.10.10.13
 
 ![Cronos_nmap](https://user-images.githubusercontent.com/55708909/91449090-5069b780-e898-11ea-861b-ed8c54de2ee0.png)
 
+Enumerating port 53 with nslookup and host we get various attack vector and find one juicy one admin.cronos.htb
+
+![Cronos_dns](https://user-images.githubusercontent.com/55708909/91450122-91ae9700-e899-11ea-9f92-b42ba7c9ab51.png)
+
+Exploited it using payload : admin'#  & we are in .
+
+![Cronos_admin](https://user-images.githubusercontent.com/55708909/91450307-c7538000-e899-11ea-915d-a7ae89dcf6d3.png)
+
+
+
+
