@@ -12,6 +12,16 @@ Since we only have one port to enumerate i am gonna start enumerating with my ow
 
 ![Optimum_web_server](https://user-images.githubusercontent.com/55708909/91420363-3ae19700-e872-11ea-8906-a31de7fb0808.png)
 
+As soon as i saw HttpFileServer httpd 2.3 i google the python version of exploit and found it .
+
+searchsploit 39161.py
+
+![Optimum_edb](https://user-images.githubusercontent.com/55708909/91420998-03bfb580-e873-11ea-9d70-beb63d9d1e66.png)
+
+
+
+
+
 
 
 
