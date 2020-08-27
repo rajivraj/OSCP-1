@@ -1,4 +1,4 @@
-Legacy without Metasploit:
+Lame without Metasploit:
 
 ![Lame](https://user-images.githubusercontent.com/55708909/91424966-24d6d500-e878-11ea-8989-bca46c0cc916.png)
 
