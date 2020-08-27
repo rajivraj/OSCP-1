@@ -9,6 +9,11 @@ Nmap -sC -sV -T4 -A -O -oA Legacy -p- 10.10.10.5
 
 As we have only two ports open we are going to enumerate these two ports
 
+FTP anonymous login is allowed
+
+![Devel_ftp](https://user-images.githubusercontent.com/55708909/91413595-fb627d00-e868-11ea-9607-ee58e55352cc.png)
+
+
 
 
 
