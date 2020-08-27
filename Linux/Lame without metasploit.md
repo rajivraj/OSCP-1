@@ -15,6 +15,8 @@ FTP port doesn't have any info to give so i quickly switch to nmap vulnerability
 
 distcc is kind of compilier and nmap has a script to exploit this vulnerability
 
+![Lame_shell](https://user-images.githubusercontent.com/55708909/91429683-610c3480-e87c-11ea-959c-1d02e7e51b5b.png)
+
 
 
 
