@@ -30,6 +30,28 @@ git clone https://github.com/411Hall/JAWS.git
 
 git clone https://github.com/AonCyberLabs/Windows-Exploit-Suggester.git
 
+HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
+
+1- Default Credentials - Run winpeas to look for juicy files with short duration of time
+
+2- DLL Hijacking   
+
+3- Unquoted service path
+
+4- Weak File Permissions
+
+5- Weak Service Permissions
+
+6- Weak Registry Permissions
+
+7- Always Installed Elevated
+
+8- Modify Autorun files
+
+9- Potato Attacks
+
+10-Kernel exploits (git clone https://github.com/abatchy17/WindowsExploits.git)
+
 
 
 
