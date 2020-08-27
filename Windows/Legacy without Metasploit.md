@@ -41,6 +41,9 @@ Run these command : python send_and_execute.py 10.10.10.4 shell.exe and you will
 
 Since it does not have whoami features therefore we will upload nc.exe from our machine to target machine and get it executed.
 
+![Legacy_flag](https://user-images.githubusercontent.com/55708909/91399730-20042800-e85c-11ea-8a3d-167ca4516724.png)
+
+
 
 
 
