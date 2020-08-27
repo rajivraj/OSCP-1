@@ -1,6 +1,6 @@
 Legacy without Metasploit:
 
-
+![Legacy](https://user-images.githubusercontent.com/55708909/91388528-2e9b1100-e855-11ea-9e19-33536c5bab8e.png)
 
 Starting with Nmap Scan :
 Nmap -sC -sV -T4 -A -O -oA Legacy -p- 10.10.10.4
