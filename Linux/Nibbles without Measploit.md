@@ -31,6 +31,11 @@ http://localhost/nibbleblog/content/private/plugins/my_image/image.php
 
 We will get a reverse shell.
 
+![Nibbles_shell_1](https://user-images.githubusercontent.com/55708909/91446342-f9aeae80-e894-11ea-86fa-8c7b7c861164.png)
+
+![Nibbles_shell_2](https://user-images.githubusercontent.com/55708909/91446334-f7e4eb00-e894-11ea-83e1-679d441e0b66.png)
+
+
 
 
 
