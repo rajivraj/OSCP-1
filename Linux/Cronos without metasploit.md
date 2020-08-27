@@ -30,6 +30,7 @@ I change it with my version of php file and we got a shell
 
 we are now as root
 
+![Cronos_root](https://user-images.githubusercontent.com/55708909/91452853-b6583e00-e89c-11ea-9264-c7304837e5eb.png)
 
 
 
