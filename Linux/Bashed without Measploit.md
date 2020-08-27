@@ -30,6 +30,9 @@ Switch to script manager and after detail inspection i found out file test.py un
 As per the file contents test.py is writing test.txt and therefore this will be our attack vector change the contents of test.py with 
 python reverse shell from pentest monkey and you wait for it to execute you will be as root
 
+![Bashed_root_flag](https://user-images.githubusercontent.com/55708909/91443604-2cef3e80-e891-11ea-838e-ef92ca4623cc.png)
+
+
 
 
 
