@@ -20,6 +20,9 @@ When i ran gobuster in two different ways i was getting two type of response:
 
 When i brute force cgi-bin directory i found user.sh and when i access it. It was prompting for Download and so i downloaded it.
 
+As soon as i get any unexpected type of prompt download options i immediately switch to burp.
+
+
 
 
 
