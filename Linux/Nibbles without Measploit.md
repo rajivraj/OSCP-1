@@ -37,6 +37,8 @@ We will get a reverse shell.
 
 As we ran sudo -l we get this as per this we can execute monitor.sh with root priviledges
 
+![Nibbles_root_flag](https://user-images.githubusercontent.com/55708909/91448427-79d61380-e897-11ea-9aa2-41e34578d30a.png)
+
 first create personal directory and then stuff director, inside stuff director upload monitor.sh file 
 
 monitor.sh
