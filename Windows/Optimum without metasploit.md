@@ -24,6 +24,11 @@ As per the exploit we need to run a netcat (windows version) and the run the exp
 
 in short the exploit first upload a netcat on windows machine and then with the help of netcat we get reverse connection
 
+![Optimum_shell](https://user-images.githubusercontent.com/55708909/91423449-2b644d00-e876-11ea-92aa-b7c4520eb905.png)
+
+
+We ran windows-exploit-suggester.py and find possible exploit MS16-098
+
 
 
 
