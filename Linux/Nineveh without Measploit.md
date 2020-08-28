@@ -40,5 +40,6 @@ As per this exploit we have to first create a database with malicious code .php 
 
 We got execution, Now through it in burp and get reverse shell
 
+![Nineveh_shell](https://user-images.githubusercontent.com/55708909/91534184-bf91eb00-e92e-11ea-8ee5-a8ef99255e57.png)
 
 
