@@ -30,6 +30,10 @@ number and got and image. Seems some php script is running backened.
 
 ![Friendzone_timestamp](https://user-images.githubusercontent.com/55708909/91522318-94e86800-e917-11ea-99ad-034ba9216bab.png)
 
+![Friendzone_uploads](https://user-images.githubusercontent.com/55708909/91522517-104a1980-e918-11ea-9ad4-99425f1b65fb.png)
+
+I use https://uploads.friendzone.red/ to upload a pic and then it gave me a timestamp number i quickly put that number inside timestamp 
+and i couldnt't see the pic.
 
 
 
