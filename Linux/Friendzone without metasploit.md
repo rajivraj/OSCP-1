@@ -45,6 +45,13 @@ Now i am  gonna put a php reverse shell and get it execute in the same way i did
 
 ![Friendzone_shell](https://user-images.githubusercontent.com/55708909/91524111-0d512800-e91c-11ea-9543-4f604b18a626.png)
 
+Priviledge escalation:
+
+As soons as i uploaded linenum.sh and look for suspicious files . I found one called reporter.py. Nothing interesting except os.py
+
+i quickly got an idea to remove os.py with my reverse shell version and it will be executed with root priv under reporter.py
+
+![Friendzone_root](https://user-images.githubusercontent.com/55708909/91524734-93ba3980-e91d-11ea-930e-0e83cf64daa7.png)
 
 
 
