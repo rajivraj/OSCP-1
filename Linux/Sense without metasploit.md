@@ -13,4 +13,11 @@ Port 80 gave me login page
 
 ![Sense_port_80](https://user-images.githubusercontent.com/55708909/91535640-16002900-e931-11ea-8cb1-102cee2e6b5d.png)
 
+Ran hydra and bang i am blocked then ran gobuster but found nothing interesting as i learned from friendzone to quickly move to other port and so i did.
+
+Port 443 gave me two interesting directory 
+
+1- Changelog.txt
+2- system-users.txt
+
 
