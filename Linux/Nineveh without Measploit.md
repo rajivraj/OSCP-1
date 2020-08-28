@@ -15,3 +15,13 @@ When i visited port 80 it was just a normal page doesn't seems promising and the
 
 ![Nineveh_user](https://user-images.githubusercontent.com/55708909/91531469-78096000-e92a-11ea-9c51-a9bf6900e1e4.png)
 
+ran john to brute force with admin as user and password: 1q2w3e4r5t
+
+Found a page and after url with Notes parameter seems LFI &  after going to and fro i found way 
+
+![NIneveh_LFI](https://user-images.githubusercontent.com/55708909/91531898-26150a00-e92b-11ea-98d8-b6687b73ecba.png)
+
+
+http://10.10.10.43/department/manage.php?notes=/ninevehNotes/../../../../etc/passwd
+
+After that i use burp to see if i could go deeeper but found nothing interesting moving on.
