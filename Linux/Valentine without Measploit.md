@@ -22,4 +22,23 @@ Find ssh key in hex format change it into ASCII FORMAT AND YOU WILL HAVE SSH KEY
 
 ![Valentine_dev1](https://user-images.githubusercontent.com/55708909/91555865-6a1a0600-e94f-11ea-9378-ab705bbe5bef.png)
 
+It's asking for password moving on earlier i find that this system has heartbleed vulnerability and i exactly know 
+
+proper exploit for it in python version.
+
+git clone https://gist.github.com/10174134.git
+
+Run the script and you will get password in base64 encoding , decode and then use ssh key to login in.
+
+Here it is encoded password base64
+
+![Valentine_heart](https://user-images.githubusercontent.com/55708909/91557114-8454e380-e951-11ea-8c74-19e3d8a1c5cb.png)
+
+
+Here it is the decoded password
+
+![Valentine_decode](https://user-images.githubusercontent.com/55708909/91557227-bbc39000-e951-11ea-9fe0-7755abef2749.png)
+
+
+
 
