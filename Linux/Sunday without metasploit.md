@@ -16,5 +16,13 @@ Pentest monkey has an awesome script for finger service , here is the  link
 
 wget https://raw.githubusercontent.com/pentestmonkey/finger-user-enum/master/finger-user-enum.pl
 
-Run it in order to know who logged into p.c.
+Run it in order to know who logged into p.c. 
+
+You need a good list for users and here is one from seclist github
+
+wget https://raw.githubusercontent.com/danielmiessler/SecLists/master/Usernames/Names/names.txt
+
+run these command and you will find appropriate users
+
+![Sunday_finger_user](https://user-images.githubusercontent.com/55708909/91527570-a2a3ea80-e923-11ea-8177-96638e20536d.png)
 
