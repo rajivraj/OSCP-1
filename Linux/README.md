@@ -7,6 +7,8 @@ In this section i will be uploading all the writeup for Linux boxes and will sho
 ![Cronos](https://user-images.githubusercontent.com/55708909/91448621-bd308200-e897-11ea-8983-8835a9c47ec7.png)
 ![Friendzone](https://user-images.githubusercontent.com/55708909/91519627-c7db2d80-e910-11ea-8cd8-572f641e48e0.png)
 ![Irked](https://user-images.githubusercontent.com/55708909/91524945-15aa6280-e91e-11ea-9f23-b378ed53b458.png)
+![Sunday](https://user-images.githubusercontent.com/55708909/91526264-db8e9000-e920-11ea-8de4-c2507f4099ee.png)
+
 
 
 
