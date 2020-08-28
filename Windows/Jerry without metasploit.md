@@ -23,6 +23,11 @@ Then execute the payload by clicking on file and we have a shell here.
 
 ![Jerry_shell](https://user-images.githubusercontent.com/55708909/91585001-19b3a000-e971-11ea-96ae-a6b1da85532a.png)
 
+Your authority will be that of system
+
+![Jerry_root](https://user-images.githubusercontent.com/55708909/91585250-6d25ee00-e971-11ea-990e-d73979373e00.png)
+
+
 
 
 
