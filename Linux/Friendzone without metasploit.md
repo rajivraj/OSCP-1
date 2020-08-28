@@ -20,6 +20,13 @@ I tried the normal credential but couldn't get in and brute force take huge time
 
 ![Friendzone_smb](https://user-images.githubusercontent.com/55708909/91520684-85672000-e913-11ea-9823-05e256ee24c3.png)
 
+![Friendzone_creds](https://user-images.githubusercontent.com/55708909/91522085-f6f49d80-e916-11ea-892a-0e2aa0598c9d.png)
+
+I found the credentials for admin panel quickly login in and it recommended me to visit dashboard.php when i visited it agai it 
+
+recommended me to put image_id=a.jpg&pagename=timestamp and when in inserted it i got this one therefore in replaced timestamp with 
+
+number and got and image. Seems some php script is running backened.
 
 
 
