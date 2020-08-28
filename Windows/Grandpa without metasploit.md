@@ -6,6 +6,8 @@ Starting with nmap scan:
 
 Nmap -sC -sV -T4 -A -O -oA Grandpa -p- 10.10.10.14
 
+![Grandpa_nmap](https://user-images.githubusercontent.com/55708909/91582616-af4d3080-e96d-11ea-901e-c2e5169a76a3.png)
+
 Since it is BOF i Will solve it using metasploit cause i tried so many times the other way but it was not stable.
 
 Fire up my metasploit and search for exploit 2017-7269
