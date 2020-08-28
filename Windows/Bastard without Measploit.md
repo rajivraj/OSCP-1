@@ -31,6 +31,13 @@ python drupa7-CVE-2018-7600.py http://10.10.10.9/ -c  "c:\Windows\Temp\shell1.ex
 
 We have a shell here.
 
+![Bastard_shell](https://user-images.githubusercontent.com/55708909/91519022-1e476c80-e90f-11ea-8238-428cbe0611ae.png)
+
+
+After that i run systeminfo commands and put in in txt form and run windows-exploit-suggester and ran MS15-051 Kernel exploits and got 
+
+Highest priviledges. 
+
 
 
 
