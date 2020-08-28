@@ -1,1 +1,18 @@
+Beep without metasploit
+
+![Beep](https://user-images.githubusercontent.com/55708909/91585921-55029e80-e972-11ea-85c4-3a37089d94a2.png)
+
+
+Starting with nmap scan:
+
+Nmap -sC -sV -T4 -A -O -oA Beep -p- 10.10.10.7
+
+![Beep_nmap](https://user-images.githubusercontent.com/55708909/91586333-d3f7d700-e972-11ea-8b90-d5c384bd3ff1.png)
+
+I am quickly gonna take down this machine as i am feeling tired and its already too late .
+
+I am gonna apply shockshell vulnnerability in user agent and will get root priviledges.
+
+
+
 
