@@ -25,3 +25,13 @@ Found a page and after url with Notes parameter seems LFI &  after going to and 
 http://10.10.10.43/department/manage.php?notes=/ninevehNotes/../../../../etc/passwd
 
 After that i use burp to see if i could go deeeper but found nothing interesting moving on.
+
+AT port 443 Simple pic so i quickly fire up dirbuster and found db and ran hydra and found password :password123
+
+![Nineveh_db](https://user-images.githubusercontent.com/55708909/91532469-fc101780-e92b-11ea-9d26-dcd7221c6bf0.png)
+
+![Nineveh_phplite](https://user-images.githubusercontent.com/55708909/91532559-1fd35d80-e92c-11ea-8020-5e7ca4b6056a.png)
+
+
+
+
