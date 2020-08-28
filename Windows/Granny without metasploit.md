@@ -32,5 +32,8 @@ Now what i am going to do is i am gonna create a reverse shell using msfvenom in
 ![Granny_shell](https://user-images.githubusercontent.com/55708909/91578784-4d3dfc80-e968-11ea-8f27-93d132e33bdc.png)
 
 
+For Priviledge escalation i run systeminfo then use windows-exploit-suugester which recommended me to run churrasco kernel exploit and therefore so i did and got Highest priviledge BAM.
+
+![Granny_root](https://user-images.githubusercontent.com/55708909/91579342-187e7500-e969-11ea-8999-d0aedd391050.png)
 
 
