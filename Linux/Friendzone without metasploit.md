@@ -35,6 +35,15 @@ number and got and image. Seems some php script is running backened.
 I use https://uploads.friendzone.red/ to upload a pic and then it gave me a timestamp number i quickly put that number inside timestamp 
 and i couldnt't see the pic.
 
+I tried uploading php file and it gave me a time stamp and when i put it inside timestamp hoping for execution of php file bam rabbit
+
+hole and then i remember development directory shown and put it inside and code php file executed.
+
+![Friendzone_image_php](https://user-images.githubusercontent.com/55708909/91523105-7b482000-e919-11ea-8f02-9da19a078cce.png)
+ 
+Now i am  gonna put a php reverse shell and get it execute in the same way i did for previous php files.
+
+![Friendzone_shell](https://user-images.githubusercontent.com/55708909/91524111-0d512800-e91c-11ea-9543-4f604b18a626.png)
 
 
 
