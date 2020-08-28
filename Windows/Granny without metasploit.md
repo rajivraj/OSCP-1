@@ -23,8 +23,11 @@ As you can see i have uploaded a html page on website and now i am gonna change 
 
 ![Granny_stage_1](https://user-images.githubusercontent.com/55708909/91568313-fd106b80-e962-11ea-8fbc-a02869609f19.png)
 
+I was able to change the extension from html to aspx
 
+![Granny_stage_2](https://user-images.githubusercontent.com/55708909/91569805-858f0c00-e963-11ea-8e2c-b22ca72aa321.png)
 
+Now what i am going to do is i am gonna create a reverse shell using msfvenom in aspx format, change it into txt and then using curl i am gonna move from txt to aspx and will execute and get a reverse shell.
 
 
 
