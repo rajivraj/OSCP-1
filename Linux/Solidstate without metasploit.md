@@ -45,6 +45,10 @@ After that we login in to smtp through telnet and then send a payload and ssh in
 
 ![Solidstate_user](https://user-images.githubusercontent.com/55708909/91551691-3c7d8e80-e948-11ea-9cb3-7d73e231b5cd.png)
 
+For root change the tmp.py files with our malicious ones and got the root
+
+Goodbye
+
 
 
 
