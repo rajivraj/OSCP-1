@@ -42,4 +42,13 @@ We got execution, Now through it in burp and get reverse shell
 
 ![Nineveh_shell](https://user-images.githubusercontent.com/55708909/91534184-bf91eb00-e92e-11ea-8ee5-a8ef99255e57.png)
 
+Priviledge Escalation:
+
+Run linenum and found chkrootkit but never heard of such services and therefore after searchinh found out that update file made inside temp will run as 
+
+root and then what i upload my versin of update with malicious php code and got root.
+
+![NIneveh_root](https://user-images.githubusercontent.com/55708909/91534773-c1a87980-e92f-11ea-8f81-b16f44d348ec.png)
+
+
 
