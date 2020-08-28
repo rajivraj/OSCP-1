@@ -5,6 +5,8 @@ In this section i will be uploading all the writeup for Linux boxes and will sho
 ![Bashed](https://user-images.githubusercontent.com/55708909/91441132-4e4e2b80-e88d-11ea-91d0-74722f609997.png)
 ![Nibbles](https://user-images.githubusercontent.com/55708909/91443972-b69f0c00-e891-11ea-8542-ce1344adf0b9.png)
 ![Cronos](https://user-images.githubusercontent.com/55708909/91448621-bd308200-e897-11ea-8983-8835a9c47ec7.png)
+![Friendzone](https://user-images.githubusercontent.com/55708909/91519627-c7db2d80-e910-11ea-8cd8-572f641e48e0.png)
+
 
 
 
