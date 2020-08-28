@@ -13,5 +13,19 @@ Nmap -sC -sV -T4 -A -O -oA Granny -p- 10.10.10.15
 
 As soon as i saw so many HTTP METHODS i quickly fire up davtest and see what ways i can find to crack the boxes.
 
+![Granny_davtest](https://user-images.githubusercontent.com/55708909/91566826-d69e0080-e961-11ea-91a7-5cd5583975d4.png)
+
+So we can't get a shell using asp or aspx format but txt and html are allowed
+
+From previous nmap result we can see that PUT and MOVE methods are allowed. Straightaway coming to point by using put 
+
+method i am gonna put shell in txt format and using move method i am gonna change the extension from txt to aspx and 
+
+we will have our reverse shell.
+
+
+
+
+
 
 
