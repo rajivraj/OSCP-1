@@ -19,6 +19,11 @@ So we can't get a shell using asp or aspx format but txt and html are allowed
 
 From previous nmap result we can see that PUT and MOVE methods are allowed. Straightaway coming to point by using put method i am gonna put shell in txt format and using move method i am gonna change the extension from txt to aspx and we will have our reverse shell.
 
+As you can see i have uploaded a html page on website and now i am gonna change the extension from html to aspx
+
+![Granny_stage_1](https://user-images.githubusercontent.com/55708909/91568313-fd106b80-e962-11ea-8fbc-a02869609f19.png)
+
+
 
 
 
