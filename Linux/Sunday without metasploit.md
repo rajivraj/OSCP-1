@@ -34,3 +34,11 @@ logged into system.
 
 ![Sunday_backup](https://user-images.githubusercontent.com/55708909/91528293-0f6bb480-e925-11ea-9081-a40875c121bf.png)
 
+john --wordlist=/usr/share/wordlists/rcokyou.txt hash.txt
+
+password : cooldude!
+
+![Sunday_user_flag](https://user-images.githubusercontent.com/55708909/91529213-85bce680-e926-11ea-88dc-c922dfa5bdc5.png)
+
+
+
