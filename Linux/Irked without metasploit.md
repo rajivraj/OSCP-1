@@ -7,6 +7,7 @@ Starting with nmap scan:
  
 Nmap -sC -sV -T4 -A -O -oA Irked -p- 10.10.10.117
 
+![Irked_namp](https://user-images.githubusercontent.com/55708909/91526560-8c952a80-e921-11ea-87f5-e372297b9508.png)
 
 By solving so many boxes i have built a strong methodology under which i always run nmap script for reverse shell for that a particular services and in this
 
