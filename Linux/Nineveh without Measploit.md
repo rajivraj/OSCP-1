@@ -36,5 +36,9 @@ AT port 443 Simple pic so i quickly fire up dirbuster and found db and ran hydra
 
 As per this exploit we have to first create a database with malicious code .php and through previous LFI we can execute the php file and get shell
 
+![Nineveh_VAR](https://user-images.githubusercontent.com/55708909/91533635-d3891d00-e92d-11ea-854d-eef88231c26f.png)
+
+We got execution, Now through it in burp and get reverse shell
+
 
 
