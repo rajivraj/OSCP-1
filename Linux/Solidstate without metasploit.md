@@ -31,4 +31,10 @@ Then send the payload through SMTP huh.
 
 Let's use netcat and telnet
 
+I use netcat to change password for mindy and then use telnet for accessing her SMTP ACCOUNT . Got ssh password.
+
+![Solidstate_nc](https://user-images.githubusercontent.com/55708909/91548710-6b453600-e943-11ea-83a7-fa23c1e2439e.png)
+
+
+
 
