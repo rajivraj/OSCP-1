@@ -32,6 +32,9 @@ AT port 443 Simple pic so i quickly fire up dirbuster and found db and ran hydra
 
 ![Nineveh_phplite](https://user-images.githubusercontent.com/55708909/91532559-1fd35d80-e92c-11ea-8020-5e7ca4b6056a.png)
 
+![Nineveh_search](https://user-images.githubusercontent.com/55708909/91532936-aab45800-e92c-11ea-8211-f328af227600.png)
+
+As per this exploit we have to first create a database with malicious code .php and through previous LFI we can execute the php file and get shell
 
 
 
