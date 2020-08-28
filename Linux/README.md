@@ -9,6 +9,8 @@ In this section i will be uploading all the writeup for Linux boxes and will sho
 ![Irked](https://user-images.githubusercontent.com/55708909/91524945-15aa6280-e91e-11ea-9f23-b378ed53b458.png)
 ![Sunday](https://user-images.githubusercontent.com/55708909/91526264-db8e9000-e920-11ea-8de4-c2507f4099ee.png)
 ![Nineveh](https://user-images.githubusercontent.com/55708909/91530779-5360b880-e929-11ea-88ce-497793e843e5.png)
+![Sense](https://user-images.githubusercontent.com/55708909/91535131-501cfb00-e930-11ea-89a7-5941a56fc649.png)
+
 
 
 
