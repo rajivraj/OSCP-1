@@ -35,6 +35,16 @@ I use netcat to change password for mindy and then use telnet for accessing her 
 
 ![Solidstate_nc](https://user-images.githubusercontent.com/55708909/91548710-6b453600-e943-11ea-83a7-fa23c1e2439e.png)
 
+Priviledge escalation:
+
+For this we first add user 
+
+../../../../../../../../etc/bash_completion.d
+
+After that we login in to smtp through telnet and then send a payload and ssh into mindy and got the connection back
+
+![Solidstate_user](https://user-images.githubusercontent.com/55708909/91551691-3c7d8e80-e948-11ea-9cb3-7d73e231b5cd.png)
+
 
 
 
