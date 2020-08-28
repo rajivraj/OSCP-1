@@ -7,6 +7,8 @@ In this section i will be uploading all the writeup for Windows boxes and will s
 ![Bastard](https://user-images.githubusercontent.com/55708909/91456087-7c893680-e8a0-11ea-997f-faea59304e45.png)
 ![Granny](https://user-images.githubusercontent.com/55708909/91565422-cf75f300-e95f-11ea-90cf-8c513413cb59.png)
 ![Grandpa](https://user-images.githubusercontent.com/55708909/91579891-e9b4ce80-e969-11ea-97c4-8dfe8b5579f9.png)
+![Jerry](https://user-images.githubusercontent.com/55708909/91583665-2a631680-e96f-11ea-8965-2fd133a841ef.png)
+
 
 
 
