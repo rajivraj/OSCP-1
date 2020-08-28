@@ -24,4 +24,4 @@ After that i use windows-exploit-suggester and as per its recommendation i fire 
 
 ![Grandpa_part_3](https://user-images.githubusercontent.com/55708909/91581627-4c0ece80-e96c-11ea-8f4b-635b3c3dab6e.png)
 
-
+Run MS14-070 and you will get Highest priviledges.
