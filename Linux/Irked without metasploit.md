@@ -14,5 +14,13 @@ case i was promising and i got a reverse shell.
 
 ![Irked_shell](https://user-images.githubusercontent.com/55708909/91525557-653d5e00-e91f-11ea-82f4-2f692b35f6ca.png)
 
+I uploaded linenum.sh and found suspicious files called viewuser when i look inside it it was running another script so i though to replace it with my own 
+
+version.
+
+![Irked_root](https://user-images.githubusercontent.com/55708909/91526070-75097200-e920-11ea-861f-ba57016669df.png)
+
+
+
 
 
