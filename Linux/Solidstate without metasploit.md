@@ -7,6 +7,7 @@ Starting with nmap scan:
 
 Nmap -sC -sV -T4 -A -O -oA Solidstate -p- 10.10.10.51
 
+![Solidstate_nmap](https://user-images.githubusercontent.com/55708909/91546796-a72acc00-e940-11ea-8d3b-aa3e90977f0c.png)
 
 Visited port 80 but didn't found anything it was a rabbit hole
 
