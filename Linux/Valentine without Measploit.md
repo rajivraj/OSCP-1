@@ -32,6 +32,10 @@ Run the script and you will get password in base64 encoding , decode and then us
 
 Here it is encoded password base64
 
+After login i look for suspicious thing and found tmux was running as root and so i run it and got root
+
+
+
 ![Valentine_heart](https://user-images.githubusercontent.com/55708909/91557114-8454e380-e951-11ea-8c74-19e3d8a1c5cb.png)
 
 
@@ -39,6 +43,9 @@ Here it is the decoded password
 
 ![Valentine_decode](https://user-images.githubusercontent.com/55708909/91557227-bbc39000-e951-11ea-9fe0-7755abef2749.png)
 
+For root i run tmux and got root
+
+![Valentine_root](https://user-images.githubusercontent.com/55708909/91557742-b155c600-e952-11ea-9fc0-9d6f1272b5be.png)
 
 
 
