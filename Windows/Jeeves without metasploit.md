@@ -41,3 +41,19 @@ I dig deeper and found CEH.kdbx since netcat is most of the times absent on wind
 CEH.kdbx is password manager sort of at least that's what google say . i did i file command on it
 
 Before breaking it i need to convert it into john format and so i did. 
+
+keepass2john CEH.kdbx > pass
+
+john --wordlist=/usr/share/wordlists/rockyou.txt  pass 
+
+password: moonshine1
+
+Then use KEEPASS2 TO unlock the file from there get the hashes 
+
+![Jeeves_keepass1](https://user-images.githubusercontent.com/55708909/91628327-2de0b700-e9dc-11ea-8a6d-46370546b41c.png)
+
+![Jeeves_keepass2](https://user-images.githubusercontent.com/55708909/91628330-346f2e80-e9dc-11ea-9e88-b79a3b8b1aba.png)
+
+aad3b435b51404eeaad3b435b51404ee:e0fb1fb85756c24235ff238cbe81fe00
+
+
