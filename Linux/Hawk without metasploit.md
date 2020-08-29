@@ -24,6 +24,11 @@ yup that's what i needed. But before that you need to enable php extensions.
 
 Now just write php code and run it and you will have a connection.
 
+For root i use 45506.py exploit suggested by searchsploit and it gave me root acces
+
+Transfer the script to target box in tmp directory and run the command and then you will have root access
+
+![Irked_root](https://user-images.githubusercontent.com/55708909/91637761-5e4e4280-ea28-11ea-947e-afdbc47739fc.png)
 
 
 
