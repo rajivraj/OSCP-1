@@ -5,3 +5,7 @@ Lightweight without metasploit
 Starting with nmap scan:
 
 Nmap -sC -sV -T4 -A -O -oA Lightweight -p- 10.10.10.119
+
+I am gonna start with port 80 and let's see what information i can find.
+
+
