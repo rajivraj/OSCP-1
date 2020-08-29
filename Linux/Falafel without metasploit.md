@@ -8,3 +8,11 @@ Nmap -sC -sV -T4 -A -O -oA Falafel -p- 10.10.10.73
 
 ![Falafel_nmap](https://user-images.githubusercontent.com/55708909/91638710-0e26ae80-ea2f-11ea-87f6-0da1d278ab6e.png)
 
+Port 80 just have normal greetings page and then after that i find cyberlaw.txt with some notes
+
+![Falafel_port_80](https://user-images.githubusercontent.com/55708909/91638891-42e73580-ea30-11ea-831a-06404fd10556.png)
+
+For this box i am going to use sqlmap as i haven't touched it till now
+
+![Falafel_sqlmap](https://user-images.githubusercontent.com/55708909/91638910-6c07c600-ea30-11ea-80a1-1a91593cb5e7.png)
+
