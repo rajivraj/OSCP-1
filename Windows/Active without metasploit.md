@@ -14,6 +14,14 @@ Let's start with smb
 
 ![Active_smb_2](https://user-images.githubusercontent.com/55708909/91635761-bf6e1a00-ea18-11ea-9d66-4f720c44fa1c.png)
 
+Grab the username and password for it 
+
+active.htb\SVC_TGS : GPPstillStandingStrong2k18
+
+Now login through smb and Grab user.txt
+
+![Active_user_txt](https://user-images.githubusercontent.com/55708909/91635872-9c903580-ea19-11ea-9a3a-e00e9c3c9e0e.png)
+
 
 
 
