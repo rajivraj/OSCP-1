@@ -45,6 +45,13 @@ And then you will be fine and have access to the website
 
 ![Lacasa_access](https://user-images.githubusercontent.com/55708909/91629315-8cf6f980-e9e5-11ea-8861-371aef7c0b37.png)
 
+Tried LFI and was able to see file name user.txt and i thought to get it but fail .Let's try harder
+
+![Lacasa_season1](https://user-images.githubusercontent.com/55708909/91629773-70f55700-e9e9-11ea-9495-d55dbc589238.png)
+
+![Lacasa_access1](https://user-images.githubusercontent.com/55708909/91629779-7a7ebf00-e9e9-11ea-9786-fb12f3e0d82d.png)
+
+
 
 
 
