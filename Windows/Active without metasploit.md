@@ -6,4 +6,8 @@ Starting with nmap scan:
 
 Nmap -sC -sV -T4 -A -O -oA Active -p- 10.10.10.100
 
+![Active_nmap](https://user-images.githubusercontent.com/55708909/91635498-9b113e00-ea16-11ea-9204-dc545920bc13.png)
+
+Let's start with smb 
+
 
