@@ -27,3 +27,6 @@ As i told you i read about how to exploit this vector so i knew it. I click on M
 ![Jeeves_script_console](https://user-images.githubusercontent.com/55708909/91627252-cde61280-e9d3-11ea-9f61-d916aad67ab4.png)
 
 ![Jeeves_grovy_script](https://user-images.githubusercontent.com/55708909/91627283-0259ce80-e9d4-11ea-8d8f-c89674140d45.png)
+Put the code inside script and wait for reverse connection through netcat and you will have a shell.
+
+![Jeeves_shell](https://user-images.githubusercontent.com/55708909/91627420-cd01b080-e9d4-11ea-96b7-532ab46fcd4d.png)
