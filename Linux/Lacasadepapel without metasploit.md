@@ -51,6 +51,14 @@ Tried LFI and was able to see file name user.txt and i thought to get it but fai
 
 ![Lacasa_access1](https://user-images.githubusercontent.com/55708909/91629779-7a7ebf00-e9e9-11ea-9786-fb12f3e0d82d.png)
 
+Fire up your burp and intercept the request.
+
+When i downloaded the file and opened it. It was  empty huh.
+
+Then i saw a random string in burp.
+
+![Lacasa_download](https://user-images.githubusercontent.com/55708909/91629908-959dfe80-e9ea-11ea-8b64-4efce932a3b1.png)
+
 
 
 
