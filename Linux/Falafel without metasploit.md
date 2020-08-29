@@ -25,6 +25,6 @@ this
 
 ![Falafel_limit](https://user-images.githubusercontent.com/55708909/91639034-4b8c3b80-ea31-11ea-8aa1-05531be66fc6.png)
 
-With the help of ippsec i i got to know how to get ahead
+With the help of ippsec. i got to know how to get ahead
 
 
