@@ -20,6 +20,17 @@ It's asking for client certificate so let's generate one.
 
 For that we need key also let's see from which service we can get.
 
+For the key i exploited ftp service and get PSY SHELL
+
+From there i got the ca.key. Now we have the ca.key and ca.crt it's gonna be messy so i shall start
+
+![Lacasa_ca_key](https://user-images.githubusercontent.com/55708909/91628869-81093880-e9e1-11ea-85cf-9177f3816c68.png)
+
+![Lacasa_ca_key1](https://user-images.githubusercontent.com/55708909/91628868-7e0e4800-e9e1-11ea-98db-2d7cc57a59fd.png)
+
+
+
+
 
 
 
