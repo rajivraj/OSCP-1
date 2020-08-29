@@ -18,6 +18,10 @@ Did the usual directory brute force, source-code and other stuff but didn't find
 
 It's asking for client certificate so let's generate one.
 
+For that we need key also let's see from which service we can get.
+
+
+
 
 
 
