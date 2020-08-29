@@ -16,4 +16,14 @@ As i logged into ftp i found .drupal.txt.enc get it and i use brute forcer and i
 
 ![Hawk_brute](https://user-images.githubusercontent.com/55708909/91637169-0d3c4f80-ea24-11ea-8032-25ff8953300b.png)
 
+Now i move to port 80 and found login page i used the credentials and got inside it. 
+
+I google for possible exploitation and found that it can be possible through contents plugin and php script
+
+yup that's what i needed. But before that you need to enable php extensions.
+
+Now just write php code and run it and you will have a connection.
+
+
+
 
