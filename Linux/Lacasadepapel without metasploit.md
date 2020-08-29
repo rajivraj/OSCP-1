@@ -61,7 +61,6 @@ Then i saw a random string in burp.
 
 Decode the highlighted string and you will see that it is name of file and so i though to encode ../user.txt and send the request and maybe i will be able to download the file.
 
-![Lacasa_download](https://user-images.githubusercontent.com/55708909/91629908-959dfe80-e9ea-11ea-8b64-4efce932a3b1.png)
 
 
 
