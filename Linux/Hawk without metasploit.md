@@ -28,7 +28,8 @@ For root i use 45506.py exploit suggested by searchsploit and it gave me root ac
 
 Transfer the script to target box in tmp directory and run the command and then you will have root access
 
-![Irked_root](https://user-images.githubusercontent.com/55708909/91637761-5e4e4280-ea28-11ea-947e-afdbc47739fc.png)
+![Hawk_root](https://user-images.githubusercontent.com/55708909/91637789-876ed300-ea28-11ea-8529-5c1499e7cd44.png)
+
 
 
 
