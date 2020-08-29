@@ -25,3 +25,5 @@ I did a directory bruteforce and found ask-jeeves which give me a dashboard for 
 As i told you i read about how to exploit this vector so i knew it. I click on MANAGE-JENKINS then to SCRIPT-CONSOLE and you will see some kind of IDE stuff . At top you will see GROVY SCRIPT. Google something like grovy script reveres shell and you will have a script for reverse shell.
 
 ![Jeeves_script_console](https://user-images.githubusercontent.com/55708909/91627252-cde61280-e9d3-11ea-9f61-d916aad67ab4.png)
+
+![Jeeves_grovy_script](https://user-images.githubusercontent.com/55708909/91627283-0259ce80-e9d4-11ea-8d8f-c89674140d45.png)
