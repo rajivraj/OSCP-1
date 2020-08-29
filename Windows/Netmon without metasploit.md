@@ -15,7 +15,11 @@ Now moving to web server.
 
 ![Netmon_port_80](https://user-images.githubusercontent.com/55708909/91636230-a5ced180-ea1c-11ea-900a-cc7f9cef994f.png)
 
+Didn't find anything strange on web server and i google about credential and it gave me login credentials location
 
+![Netmon_PRTG](https://user-images.githubusercontent.com/55708909/91636295-0e1db300-ea1d-11ea-91b4-9c9f1b66900d.png)
+
+Log into FTP SERVER and grab the credentials.
 
 
 
