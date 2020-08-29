@@ -20,3 +20,4 @@ After directory brute forcing, looking at source code and search on searchsploit
 
 I did a directory bruteforce and found ask-jeeves which give me a dashboard for various plugins, earlier while doing enumeration i saw same page and i knew this could be a potential attack vector
 
+![Jeeves_ask_jeeves](https://user-images.githubusercontent.com/55708909/91627152-f7526e80-e9d2-11ea-8720-0e13ead030db.png)
