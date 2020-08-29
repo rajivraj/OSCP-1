@@ -30,3 +30,10 @@ As i told you i read about how to exploit this vector so i knew it. I click on M
 Put the code inside script and wait for reverse connection through netcat and you will have a shell.
 
 ![Jeeves_shell](https://user-images.githubusercontent.com/55708909/91627420-cd01b080-e9d4-11ea-96b7-532ab46fcd4d.png)
+
+For priviledge escalation:
+
+I dig deeper and found CEH.kdbx since netcat is most of the times absent on windows box i transfer nc to download CEH.kdbx and then through nc i transfer CEH.kdbx.
+
+![Jeeves_CEH](https://user-images.githubusercontent.com/55708909/91627554-d0496c00-e9d5-11ea-8307-71741340636c.png)
+
