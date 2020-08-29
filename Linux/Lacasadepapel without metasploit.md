@@ -69,6 +69,8 @@ In the same way i got the ssh key but i need a user name so let's see from seaso
 
 ![Lacasa_id_rsa](https://user-images.githubusercontent.com/55708909/91630168-d565e580-e9ec-11ea-9870-0b5c2edf5f7b.png)
 
+From season 2 i tried every name but professor name was lucky and got into the machine.
+
 
 
 
