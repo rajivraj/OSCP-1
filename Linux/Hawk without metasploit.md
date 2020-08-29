@@ -9,3 +9,11 @@ Nmap -sC -sV -T4 -A -O -oA Hawk -p- 10.10.10.102
 ![Hawk_nmap_1](https://user-images.githubusercontent.com/55708909/91637065-1e389100-ea23-11ea-9b89-dac64183d2f8.png)
 
 ![Hawk_nmap_2](https://user-images.githubusercontent.com/55708909/91637069-27c1f900-ea23-11ea-90bf-4783862638fe.png)
+
+As i logged into ftp i found .drupal.txt.enc get it and i use brute forcer and it gave me some password
+
+![Hawk_ftp](https://user-images.githubusercontent.com/55708909/91637165-0281ba80-ea24-11ea-9e7a-9233d42a6985.png)
+
+![Hawk_brute](https://user-images.githubusercontent.com/55708909/91637169-0d3c4f80-ea24-11ea-8032-25ff8953300b.png)
+
+
