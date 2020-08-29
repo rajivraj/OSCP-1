@@ -19,3 +19,12 @@ For this box i am going to use sqlmap as i haven't touched it till now
 Type something like magic hashes starting with 0 and you will get the password if no then try this whitehatsec.com
 
 ![Falafel_magic](https://user-images.githubusercontent.com/55708909/91638974-ee908580-ea30-11ea-9d6d-113f6fc70679.png)
+
+login into the page the first thing i tried is uploading php script but failed anyways then i look here and there and find
+this
+
+![Falafel_limit](https://user-images.githubusercontent.com/55708909/91639034-4b8c3b80-ea31-11ea-8aa1-05531be66fc6.png)
+
+With the help of ippsec i i got to know how to get ahead
+
+
