@@ -24,4 +24,5 @@ Now login through smb and Grab user.txt
 
 Now since we do have kerberos i am going to use impacket:getusersSPN.PY and grab the hashes and use that to have password for psexec.py
 
+![Active_hashes](https://user-images.githubusercontent.com/55708909/91635985-9484c580-ea1a-11ea-92da-70e7419d7420.png)
 
