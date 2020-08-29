@@ -13,6 +13,7 @@ In this section i will be uploading all the writeup for Linux boxes and will sho
 ![Solidstate](https://user-images.githubusercontent.com/55708909/91543637-3386c000-e93c-11ea-80cf-fd6103e59d01.png)
 ![Valentine](https://user-images.githubusercontent.com/55708909/91554925-a9475780-e94d-11ea-8695-12abd15e7fd2.png)
 ![Beep](https://user-images.githubusercontent.com/55708909/91585921-55029e80-e972-11ea-85c4-3a37089d94a2.png)
+![Lacasa](https://user-images.githubusercontent.com/55708909/91628482-c3c91180-e9dd-11ea-84fe-8b50974c2241.png)
 
 
 
