@@ -28,6 +28,26 @@ From there i got the ca.key. Now we have the ca.key and ca.crt it's gonna be mes
 
 ![Lacasa_ca_key1](https://user-images.githubusercontent.com/55708909/91628868-7e0e4800-e9e1-11ea-98db-2d7cc57a59fd.png)
 
+Certificates dealing:
+first verify that both certificates are same
+1-openssl pkey -in ca.key -pubout
+2-openssl  x509 -in ca.crt -pubkey -noout
+Create client key:
+openssl genrsa -out client.key 4096
+Create certificate sign request:
+openssl req -new -key client.key -out client.csr 
+Signing the certificate:
+1-openssl x509 -req -in client.csr -CA ca.crt -CAkey ca.key -set_serial 9001 -extensions client -days 9002 -outform PEM -out client.cer 
+2-openssl pkcs12 -export -inkey client.key -in client.cer -out client.p12
+3-import two things .p12 (your certificate)  and ca.crt files (authorities) 
+
+And then you will be fine and have access to the website
+
+![Lacasa_access](https://user-images.githubusercontent.com/55708909/91629315-8cf6f980-e9e5-11ea-8861-371aef7c0b37.png)
+
+
+
+
 
 
 
