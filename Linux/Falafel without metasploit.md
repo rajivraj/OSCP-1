@@ -16,3 +16,6 @@ For this box i am going to use sqlmap as i haven't touched it till now
 
 ![Falafel_sqlmap](https://user-images.githubusercontent.com/55708909/91638910-6c07c600-ea30-11ea-80a1-1a91593cb5e7.png)
 
+Type something like magic hashes starting with 0 and you will get the password if no then try this whitehatsec.com
+
+![Falafel_magic](https://user-images.githubusercontent.com/55708909/91638974-ee908580-ea30-11ea-9d6d-113f6fc70679.png)
