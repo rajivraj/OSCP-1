@@ -18,3 +18,5 @@ After directory brute forcing, looking at source code and search on searchsploit
 
 ![Jeeves_port_50000](https://user-images.githubusercontent.com/55708909/91627086-624f7580-e9d2-11ea-9cdb-7473a68232e4.png)
 
+I did a directory bruteforce and found ask-jeeves which give me a dashboard for various plugins, earlier while doing enumeration i saw same page and i knew this could be a potential attack vector
+
