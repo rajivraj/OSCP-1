@@ -10,6 +10,12 @@ Nmap -sC -sV -T4 -A -O -oA Lacasa -p- 10.10.10.131
 
 As always i will start with port 80.
 
+![Lacasa_port_80](https://user-images.githubusercontent.com/55708909/91628586-c5470980-e9de-11ea-88fa-0440396a0801.png)
+
+Did the usual directory brute force, source-code and other stuff but didn't find anything useful so i will move to port 443
+
+
+
 
 
 
