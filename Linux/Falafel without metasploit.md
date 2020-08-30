@@ -47,5 +47,18 @@ Step4 - Grab the shell using burp and with the help of netcat you will get a rev
 
 ![Falafel_user_txt](https://user-images.githubusercontent.com/55708909/91651370-9a75b780-eaa9-11ea-93d0-b81f8a404a34.png)
 
+For priviledge escalation i will follow the same path as rest of the did
+
+Getting yoshe priviledge
+
+For that i followed ippsec way of doing
+
+![Falafel_root_1](https://user-images.githubusercontent.com/55708909/91651620-7ff10d80-eaac-11ea-82ad-efe66924e8dd.png)
+
+![Falafel_root_2](https://user-images.githubusercontent.com/55708909/91651619-7ebfe080-eaac-11ea-8a42-981ef3be3d10.png)
+
+![Falafel_root_3](https://user-images.githubusercontent.com/55708909/91651618-7cf61d00-eaac-11ea-9b09-452a15e3410a.png)
+
+
 
 
