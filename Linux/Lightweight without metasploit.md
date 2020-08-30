@@ -43,5 +43,8 @@ Something like this :
 $password = 'f3ca9d298a553da117442deeb6fa932d';
 if ($bind=ldap_bind($ds, $dn, $password)) {
 
+![Lightweight_root](https://user-images.githubusercontent.com/55708909/91653503-2f36e000-eabf-11ea-81f9-e4ce3a98c01b.png)
+
+
 
 
