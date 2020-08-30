@@ -22,7 +22,17 @@ I search for something random and built some methodology and then apply getcap c
 
 ![Lightweight_ldap2](https://user-images.githubusercontent.com/55708909/91653226-44f6d600-eabc-11ea-9b73-d24697319908.png)
 
+After that i find backup.7z file these are steps which i performed.
+7za e backup.7z
+asking for password 
+base64 backup.7z as we can't transfer
+save it as backup.7z.enc 
+base64 -d backup.7z.enc > backup.7z
+7z e backup.7z
+again asking for password then i brute force it using this tool https://github.com/Seyptoo/7z-BruteForce.git
+password : delete
 
+These are the files which you will see
 
 
 
