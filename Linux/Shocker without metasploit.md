@@ -32,6 +32,7 @@ For root write sudo -l
 
 It has sudo right on perl program just grab a perl payload for reverse shell from pentest monkey and run it. Root access
 
+![Shocker_root](https://user-images.githubusercontent.com/55708909/91654249-dcf8bd80-eac4-11ea-8dde-1ae0a5fa2870.png)
 
 
 
