@@ -17,7 +17,6 @@ In this section i will be uploading all the writeup for Linux boxes and will sho
 ![Lightweight](https://user-images.githubusercontent.com/55708909/91635098-2f79a180-ea13-11ea-83de-eb3504d8b372.png)
 ![Hawk](https://user-images.githubusercontent.com/55708909/91636974-6d31f680-ea22-11ea-94f9-4f51fc2b7fc8.png)
 ![DevOops](https://user-images.githubusercontent.com/55708909/91637910-52af4b80-ea29-11ea-8ccf-dfc3e2057e85.png)
-![Falafel](https://user-images.githubusercontent.com/55708909/91638625-6c06c680-ea2e-11ea-8ec3-61aed8cc2b05.png)
 
 
 
