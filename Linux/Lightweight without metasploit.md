@@ -18,6 +18,11 @@ Password: 10.10.X.X
 
 I search for something random and built some methodology and then apply getcap command on various binaries which led to TCPDUMP and then i captured the packet transfer it to my system and then after analysis of various packet led me to ldapuser2 password
 
+![LIghtweight_cap](https://user-images.githubusercontent.com/55708909/91653218-34466000-eabc-11ea-8268-c392f299ccc9.png)
+
+![Lightweight_ldap2](https://user-images.githubusercontent.com/55708909/91653226-44f6d600-eabc-11ea-9b73-d24697319908.png)
+
+
 
 
 
