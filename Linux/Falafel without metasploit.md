@@ -27,4 +27,20 @@ this
 
 With the help of ippsec. i got to know how to get ahead
 
+For getting the shell i divided the steps in 4 stages:
+
+Stage1 - Send file with 255 character in gif format, the web server will shorten the file name to 236 this means there is restriction
+
+![Falafel_hack_1](https://user-images.githubusercontent.com/55708909/91651215-96489a80-eaa7-11ea-9295-a4cd61ee6947.png)
+
+Stage2 - After that i modify the file with .php.gif extension in such a format 234.php.gif this means that file name till 233 counts then from 234 to 236 it is .php and then after that .gif what this will do is it will bypass the gif format requirements and will be uploaded on web server
+
+![Falafel_hack_2](https://user-images.githubusercontent.com/55708909/91651218-9d6fa880-eaa7-11ea-8bb6-a5cbbf5b72b4.png)
+
+Step3  - After that look at source code and figure out where the file is stored i means the directory location and execute the file 
+
+![Falafel_hack_3](https://user-images.githubusercontent.com/55708909/91651221-a496b680-eaa7-11ea-9d24-5c6e40289743.png)
+
+
+
 
