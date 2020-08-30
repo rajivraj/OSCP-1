@@ -41,6 +41,11 @@ Step3  - After that look at source code and figure out where the file is stored 
 
 ![Falafel_hack_3](https://user-images.githubusercontent.com/55708909/91651221-a496b680-eaa7-11ea-9d24-5c6e40289743.png)
 
+Step4 - Grab the shell using burp and with the help of netcat you will get a reverse shell
+
+![Falafel_shell](https://user-images.githubusercontent.com/55708909/91651366-92b61300-eaa9-11ea-9b5b-2f4d9597d8d7.png)
+
+![Falafel_user_txt](https://user-images.githubusercontent.com/55708909/91651370-9a75b780-eaa9-11ea-93d0-b81f8a404a34.png)
 
 
 
