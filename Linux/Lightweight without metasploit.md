@@ -16,5 +16,9 @@ ssh 10.10.X.X@10.10.10.119
 
 Password: 10.10.X.X
 
+I search for something random and built some methodology and then apply getcap command on various binaries which led to TCPDUMP and then i captured the packet transfer it to my system and then after analysis of various packet led me to ldapuser2 password
+
+
+
 
 
