@@ -34,6 +34,14 @@ password : delete
 
 These are the files which you will see
 
+![Lightweight_files](https://user-images.githubusercontent.com/55708909/91653431-74a6dd80-eabe-11ea-8480-92ccb8836881.png)
+
+Look into each files in status.php you will get ldapuser1 credentials
+
+Something like this :
+
+$password = 'f3ca9d298a553da117442deeb6fa932d';
+if ($bind=ldap_bind($ds, $dn, $password)) {
 
 
 
