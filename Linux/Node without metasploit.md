@@ -33,4 +33,7 @@ Now it seems we have to ssh into box and so i did.
 
 ![Node_ssh](https://user-images.githubusercontent.com/55708909/91823379-bf5b5d80-ec56-11ea-865a-431a01d811d3.png)
 
+I Uploaded linenum and went through the result and saw some js running.
+
+![Node_mongo](https://user-images.githubusercontent.com/55708909/91823892-8f608a00-ec57-11ea-875d-4c3b9e76aa6d.png)
 
