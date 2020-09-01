@@ -37,3 +37,8 @@ I Uploaded linenum and went through the result and saw some js running.
 
 ![Node_mongo](https://user-images.githubusercontent.com/55708909/91823892-8f608a00-ec57-11ea-875d-4c3b9e76aa6d.png)
 
+It seems we have to upload a shell inside mongo db 
+
+Follow with me: 
+
+![Node_user](https://user-images.githubusercontent.com/55708909/91824720-d8650e00-ec58-11ea-8460-6d5b39967ec9.png)
