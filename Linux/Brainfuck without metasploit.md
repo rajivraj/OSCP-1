@@ -17,3 +17,8 @@ From nmap result i saw a domain so quick i try dns enumeration and found potenti
 ![Brainfuck_wpscan](https://user-images.githubusercontent.com/55708909/91797030-338a0700-ec3f-11ea-8d25-8356424f9780.png)
 
 This could be our potential attack vector i search on searchsploit and found one too.
+
+![Brainfuck_exploit](https://user-images.githubusercontent.com/55708909/91797256-be6b0180-ec3f-11ea-9b31-9bb18827bf6f.png)
+
+Save the html elements in a file called bypass.html and change the url action="http://wp/wp-admin/admin-ajax.php" to action="http://brainfuck.htb/wp-admin/admin-ajax.php" and for username value run wpsacn with enumerate commands you
+will find two names administrator and admin try both of them and see if you can find something interesting.
