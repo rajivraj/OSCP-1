@@ -6,6 +6,8 @@ Starting with nmap scan:
 
 Nmap -sC -sV -T4 -A -O -oA Poison -p- 10.10.10.84
 
+![Poison_nmap](https://user-images.githubusercontent.com/55708909/91860662-91dbd780-ec89-11ea-8a3e-b049d53aa311.png)
+
 This is the first thing that i saw as i proceeded further i was able to get the charix credentials
 
 ![Poison_port_80](https://user-images.githubusercontent.com/55708909/91856007-9604f680-ec83-11ea-9f38-4da1a423dab1.png)
