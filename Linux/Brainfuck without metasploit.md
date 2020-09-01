@@ -47,3 +47,9 @@ OrestisHackingforfunandprofit
 ![Brainfuck_ssh](https://user-images.githubusercontent.com/55708909/91804141-ddba5c80-ec48-11ea-851a-fab50acbc686.png)
 
 ![Brainfuck_password](https://user-images.githubusercontent.com/55708909/91804365-edd23c00-ec48-11ea-936f-d90039ea01c2.png)
+
+Let me tell you what's happening here first we get was cipher text from there we get the key value
+
+using that key value we decrypt url and get id_rsa private key in order to use we need password so using
+this tool wget https://raw.githubusercontent.com/openwall/john/bleeding-jumbo/run/ssh2john.py
+ we first convert it into john format and then use jtr to crack the password.
