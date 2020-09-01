@@ -28,3 +28,9 @@ It was a ascii file so i decoded it then it change into zip format i used lost m
 
 const url         = 'mongodb://mark:5AYRft73VtFpc84k@localhost:27017/myplace?authMechanism=DEFAULT&authSource=myplace';
 const backup_key  = '45fac180e9eee72f4fd2d9386ea7033e52b7c740afc3d98a8d0230167104d474';
+
+Now it seems we have to ssh into box and so i did.
+
+![Node_ssh](https://user-images.githubusercontent.com/55708909/91823379-bf5b5d80-ec56-11ea-865a-431a01d811d3.png)
+
+
