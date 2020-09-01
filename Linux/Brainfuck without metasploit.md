@@ -22,3 +22,9 @@ This could be our potential attack vector i search on searchsploit and found one
 
 Save the html elements in a file called bypass.html and change the url action="http://wp/wp-admin/admin-ajax.php" to action="http://brainfuck.htb/wp-admin/admin-ajax.php" and for username value run wpsacn with enumerate commands you
 will find two names administrator and admin try both of them and see if you can find something interesting.
+
+After that you will be sign in as admin just look at source code and find out the credentials.
+
+Then quickly set up mail server and within no time you will have orestis credentials
+
+![Brainfuck_mail](https://user-images.githubusercontent.com/55708909/91798359-5669ea80-ec42-11ea-9baf-1595c0aa7273.png)
