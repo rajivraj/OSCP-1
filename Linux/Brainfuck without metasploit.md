@@ -28,3 +28,22 @@ After that you will be sign in as admin just look at source code and find out th
 Then quickly set up mail server and within no time you will have orestis credentials
 
 ![Brainfuck_mail](https://user-images.githubusercontent.com/55708909/91798359-5669ea80-ec42-11ea-9baf-1595c0aa7273.png)
+
+Login in to secret form with valid credentials obtained earlier and you will be have this welcome page
+
+![Brainfuck_secret](https://user-images.githubusercontent.com/55708909/91798757-3c7cd780-ec43-11ea-8ef0-5f33700c3254.png)
+
+
+If we look at it we will get to know that orestis has is asking for ssh key and for that he open another private thread 
+
+When we go to key thread we see some jargon and at the end of each statement this is statement 
+
+This is a cipher text :
+
+PieagnmJkoijeg nbw zwx mle grwsnn
+
+OrestisHackingforfunandprofit
+
+![Brainfuck_ssh](https://user-images.githubusercontent.com/55708909/91804141-ddba5c80-ec48-11ea-851a-fab50acbc686.png)
+
+![Brainfuck_password](https://user-images.githubusercontent.com/55708909/91804365-edd23c00-ec48-11ea-936f-d90039ea01c2.png)
