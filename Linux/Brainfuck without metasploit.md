@@ -53,3 +53,10 @@ Let me tell you what's happening here first we get was cipher text from there we
 using that key value we decrypt url and get id_rsa private key in order to use we need password so using
 this tool wget https://raw.githubusercontent.com/openwall/john/bleeding-jumbo/run/ssh2john.py
  we first convert it into john format and then use jtr to crack the password.
+ 
+ 
+ For root access go through decrypt.txt and encrypt.stage you will find a strings i just through a buch of code and then find a possible script to decode decrypt.txt and output.txt , for p, q, e value put them from decrypt.txt and for ct value put them from output.txt and you will get root flag
+ 
+ ![Brainfuck_root](https://user-images.githubusercontent.com/55708909/91811150-ab126300-ec4c-11ea-9276-d03c38d535e3.png)
+
+ 
