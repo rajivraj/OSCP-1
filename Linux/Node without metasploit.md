@@ -20,3 +20,4 @@ When i went through different url i saw a page without admin credentials and one
 
 ![Node_admin_2](https://user-images.githubusercontent.com/55708909/91822267-20823180-ec55-11ea-865c-48eb392ea4e9.png)
 
+Crack the password using crackstation and found credentials for admin enter into website and it prompted for downoadinf file and so i did 
