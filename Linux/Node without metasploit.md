@@ -24,3 +24,7 @@ Crack the password using crackstation and found credentials for admin enter into
 
 ![Node_password](https://user-images.githubusercontent.com/55708909/91822332-427bb400-ec55-11ea-8fda-76b68c4c51fe.png)
 
+It was a ascii file so i decoded it then it change into zip format i used lost my pass tool which gave me password for it and when i opened it gave me some info:
+
+const url         = 'mongodb://mark:5AYRft73VtFpc84k@localhost:27017/myplace?authMechanism=DEFAULT&authSource=myplace';
+const backup_key  = '45fac180e9eee72f4fd2d9386ea7033e52b7c740afc3d98a8d0230167104d474';
