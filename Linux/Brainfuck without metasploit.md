@@ -15,3 +15,5 @@ From nmap result i saw a domain so quick i try dns enumeration and found potenti
 ![Brainfuck_port_80](https://user-images.githubusercontent.com/55708909/91797038-384ebb00-ec3f-11ea-9c5b-a81fce7ba049.png)
 
 ![Brainfuck_wpscan](https://user-images.githubusercontent.com/55708909/91797030-338a0700-ec3f-11ea-8d25-8356424f9780.png)
+
+This could be our potential attack vector i search on searchsploit and found one too.
