@@ -15,3 +15,8 @@ At port 8500 i saw some directory and after digging deeper i saw administrator
 ![Arctic_admin](https://user-images.githubusercontent.com/55708909/91930685-20d70700-ecff-11ea-9377-9d772de281a1.png)
 
 Admin page is asking for password lets see if there is some way to bypass this 
+
+![arctic_admin](https://user-images.githubusercontent.com/55708909/91931428-0e5dcd00-ed01-11ea-9abf-4539a3f5358a.png)
+
+![Arctic_exploit](https://user-images.githubusercontent.com/55708909/91931450-17e73500-ed01-11ea-91a7-7807d6b1f486.png)
+
