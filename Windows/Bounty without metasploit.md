@@ -18,3 +18,9 @@ I uploaded a png file and can see it on the web
 ![Bounty_pic](https://user-images.githubusercontent.com/55708909/91938925-8254a100-ed12-11ea-8f89-b55fbec64a68.png)
 
 saw it seems to work i try to upload reverse shell in various format aspx ,asp and php but fail.
+
+After going through lot i found one way to upload asp file using web.config files
+
+https://soroush.secproject.com/blog/2014/07/upload-a-web-config-file-for-fun-profit/
+
+save it in web.config file name and execute it and you will see 3 as output this means asp code is working
