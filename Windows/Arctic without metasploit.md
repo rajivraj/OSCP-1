@@ -46,3 +46,6 @@ Grab user.txt and for root.txt i did systeminfo
 ![Arctis_user](https://user-images.githubusercontent.com/55708909/91933452-837fd100-ed06-11ea-9afd-5ee6b979b78e.png)
 
 ![Arctic_root_1](https://user-images.githubusercontent.com/55708909/91936478-90ec8980-ed0d-11ea-98e9-4a54e0465dfd.png)
+
+ Run the kernel exploits and grab root.txt
+ 
