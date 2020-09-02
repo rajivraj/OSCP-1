@@ -29,3 +29,13 @@ http://10.10.10.11:8500/CFIDE/administrator/enter.cfm?locale=../../../../../../.
 ![Arctic_hash](https://user-images.githubusercontent.com/55708909/91931760-f76baa80-ed01-11ea-8a9c-100ef4a511e1.png)
 
 ![Arctic_hash_crack](https://user-images.githubusercontent.com/55708909/91931757-f5a1e700-ed01-11ea-90e7-e98d147e661a.png)
+
+Login in with password as happyday
+
+![Arctic_admin_login](https://user-images.githubusercontent.com/55708909/91932261-4a922d00-ed03-11ea-9797-fc67b1772270.png)
+
+
+I was looking for plugin where i can write malicious script or upload a file and get it executed from web server and i found schedule task plugin.
+
+
+
