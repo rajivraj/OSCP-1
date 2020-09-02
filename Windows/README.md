@@ -12,7 +12,6 @@ In this section i will be uploading all the writeup for Windows boxes and will s
 ![Active](https://user-images.githubusercontent.com/55708909/91635434-23431380-ea16-11ea-9260-80fdb6f88210.png)
 ![Netmon](https://user-images.githubusercontent.com/55708909/91636135-d4987800-ea1b-11ea-902f-2f9d5f0ff6d7.png)
 ![Arctic](https://user-images.githubusercontent.com/55708909/91928522-e9b22700-ecf9-11ea-8e4f-c0b58d72e18e.png)
-![Bounty](https://user-images.githubusercontent.com/55708909/91937841-71a32b80-ed10-11ea-9fcd-60ef1af791ef.png)
 
 
 
