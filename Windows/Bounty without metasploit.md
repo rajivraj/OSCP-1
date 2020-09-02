@@ -24,3 +24,5 @@ After going through lot i found one way to upload asp file using web.config file
 https://soroush.secproject.com/blog/2014/07/upload-a-web-config-file-for-fun-profit/
 
 save it in web.config file name and execute it and you will see 3 as output this means asp code is working
+
+![Bounty_upload](https://user-images.githubusercontent.com/55708909/91939974-576b4c80-ed14-11ea-9acd-0f1081142782.png)
