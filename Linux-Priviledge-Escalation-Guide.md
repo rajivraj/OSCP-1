@@ -21,3 +21,9 @@ https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 ![Linux_passwd_read_1](https://user-images.githubusercontent.com/55708909/92296906-5f66fe80-ef57-11ea-81a3-77cac750341f.png)
 
 ![LInux_passwd_read_2](https://user-images.githubusercontent.com/55708909/92296908-61c95880-ef57-11ea-93b1-a2db80ad655a.png)
+
+5- Shell escape sequence:
+
+![Linux_shell_escape_1](https://user-images.githubusercontent.com/55708909/92297044-adc8cd00-ef58-11ea-9aa3-ce058605e641.png)
+
+
