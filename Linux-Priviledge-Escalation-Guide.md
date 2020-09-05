@@ -89,7 +89,7 @@ find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
     
     On target machine run : /tmp/shell.exe  and you are root
 
-
+18- Kernel exploits
 
 
 
