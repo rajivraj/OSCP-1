@@ -65,6 +65,9 @@ find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 
 14-SUID/SGID ABUSING SHELL FEATURES PART-2:
 
+![Linux_suid_abusing_part_2](https://user-images.githubusercontent.com/55708909/92304806-f0ad9380-ef9e-11ea-9e25-f57560cc9e3d.png)
+
+
 
 
 
