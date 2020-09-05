@@ -67,6 +67,15 @@ find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 
 ![Linux_suid_abusing_part_2](https://user-images.githubusercontent.com/55708909/92304806-f0ad9380-ef9e-11ea-9e25-f57560cc9e3d.png)
 
+15- Password and keys : History files and configuration files
+
+![Linux_priv_history_config](https://user-images.githubusercontent.com/55708909/92304976-8695ee00-efa0-11ea-9870-acacaf777cc1.png)
+
+16- Password and keys: SSH KEYS
+
+![LInux_ssh_root_key](https://user-images.githubusercontent.com/55708909/92305037-0328cc80-efa1-11ea-91fa-64e04110d947.png)
+
+
 
 
 
