@@ -51,3 +51,7 @@ find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 
 ![Linux_suid_version_exploit](https://user-images.githubusercontent.com/55708909/92300888-44f34c00-ef7c-11ea-8e99-3d59a2d5ac34.png)
 
+11 SUID/SGID OBJECT INJECTION:
+
+![Linux_suid_object_injection_1](https://user-images.githubusercontent.com/55708909/92301086-255d2300-ef7e-11ea-8f85-fe197990797e.png)
+
