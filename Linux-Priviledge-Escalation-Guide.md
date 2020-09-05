@@ -45,6 +45,9 @@ https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 
 ![LInux_cronjob_wildcharacter](https://user-images.githubusercontent.com/55708909/92300683-6c491980-ef7a-11ea-86cd-a0a358ebab2a.png)
 
+10 SUID/SGID EXECUTE - KNOWN EXPLOITS
 
+find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 
+![Linux_suid_version_exploit](https://user-images.githubusercontent.com/55708909/92300888-44f34c00-ef7c-11ea-8e99-3d59a2d5ac34.png)
 
