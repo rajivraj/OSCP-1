@@ -55,3 +55,14 @@ find / -type f -a \( -perm -u+s -o -perm -g+s \) -exec ls -l {} \; 2> /dev/null
 
 ![Linux_suid_object_injection_1](https://user-images.githubusercontent.com/55708909/92301086-255d2300-ef7e-11ea-8f85-fe197990797e.png)
 
+12-SUID/SGID ENVIRONMENT VARIABLE:
+
+![Linux_suid_env_var](https://user-images.githubusercontent.com/55708909/92304588-f99d6580-ef9c-11ea-862e-1efe0a4dda99.png)
+
+13-SUID/SGID ABUSING SHELL FEATURES:
+
+
+
+
+
+
