@@ -33,6 +33,8 @@ https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 ![Linux_Env_var_2](https://user-images.githubusercontent.com/55708909/92298893-2c2e6a80-ef6b-11ea-947f-703f7e8dd797.png)
 
 
+7- Cronjob (File Permission):
+
 
 
 
