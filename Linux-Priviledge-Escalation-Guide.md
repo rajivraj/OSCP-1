@@ -41,6 +41,9 @@ https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 
 ![Linux_cron_env](https://user-images.githubusercontent.com/55708909/92300464-8e419c80-ef78-11ea-8e9a-8b6b9de73f90.png)
 
+9- Cronjob Wilcharacter:
+
+![LInux_cronjob_wildcharacter](https://user-images.githubusercontent.com/55708909/92300683-6c491980-ef7a-11ea-86cd-a0a358ebab2a.png)
 
 
 
