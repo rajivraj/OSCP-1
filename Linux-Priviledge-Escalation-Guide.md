@@ -37,6 +37,10 @@ https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 
 ![Linux_Priv_cron_1](https://user-images.githubusercontent.com/55708909/92299071-deb2fd00-ef6c-11ea-8ef0-44c9264cab41.png)
 
+8- Cronjob environment variable:
+
+![Linux_cron_env](https://user-images.githubusercontent.com/55708909/92300464-8e419c80-ef78-11ea-8e9a-8b6b9de73f90.png)
+
 
 
 
