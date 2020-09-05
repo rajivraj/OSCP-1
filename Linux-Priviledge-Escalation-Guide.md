@@ -35,6 +35,9 @@ https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 
 7- Cronjob (File Permission):
 
+![Linux_Priv_cron_1](https://user-images.githubusercontent.com/55708909/92299071-deb2fd00-ef6c-11ea-8ef0-44c9264cab41.png)
+
+
 
 
 
