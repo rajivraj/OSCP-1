@@ -12,3 +12,7 @@ https://blog.g0tmi1k.com/2011/08/basic-linux-privilege-escalation/
 
 ![Linux_shadow_read_2](https://user-images.githubusercontent.com/55708909/92296828-5de90680-ef56-11ea-9333-c5a1ccd82d52.png)
 
+3- Weak file permission: (Password file read)
+
+![Linux_passwd_read_1](https://user-images.githubusercontent.com/55708909/92296868-eb2c5b00-ef56-11ea-820f-7e33a5d899a1.png)
+
