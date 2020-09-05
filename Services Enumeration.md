@@ -94,6 +94,7 @@ SMB(139 OR 445):
        enum4linux -a 10.10.10.10
        rpcclient -U "" 10.10.10.10
        nbtscan -r 10.10.10.0/24
+       metasploit  (psexec)
 
 HTTPS-443:
 ---------------------------------------------
