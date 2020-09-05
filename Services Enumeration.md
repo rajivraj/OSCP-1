@@ -42,6 +42,7 @@ SMTP-25:
        250 2.6.0 Message received
        quit
        
+      
 DNS-53:
 --------------------------------
        nslookup
@@ -59,6 +60,24 @@ HTTP-80:
        burp suite 
        Windows or Linux
        
+       
+Kerberos-88:
+------------------------------------
+
+
+
+
+POP3-110:
+------------------------------------
+       nc 10.10.10.10 110
+       USER  mindy
+       PASS password
+       
+       telnet 10.10.10.10   110
+       username:
+       root
+       password:
+       root
 SMB(139 OR 445):
 -----------------------------------
        smbclient -L 10.10.10.10
