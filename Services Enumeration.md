@@ -51,5 +51,28 @@ DNS-53:
        
        host -l hack.htb 10.10.10.10
        
+HTTP-80:
+-----------------------------------
+       CMS OR CF OR user,help,admin,robots.txt
+       source code and page info(look into certificates foremail id)
+       dirbuster or gobuster or wfuzz
+       burp suite 
+       Windows or Linux
+       
+SMB(139 OR 445):
+-----------------------------------
+       smbclient -L 10.10.10.10
+       smbmap -R -H 10.10.10.10
+       enum4linux -a 10.10.10.10
+       rpcclient -U "" 10.10.10.10
+
+HTTPS-443:
+---------------------------------------------
+       CMS OR CF OR user,help,admin,robots.txt
+       source code and page info(look into certificates foremail id)
+       dirbuster or gobuster or wfuzz
+       burp suite 
+       Windows or Linux
+       
        
        
