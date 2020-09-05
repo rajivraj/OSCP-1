@@ -41,3 +41,15 @@ SMTP-25:
        .
        250 2.6.0 Message received
        quit
+       
+DNS-53:
+--------------------------------
+       nslookup
+       server 10.10.10.10
+       10.10.10.10
+       
+       
+       host -l hack.htb 10.10.10.10
+       
+       
+       
