@@ -15,6 +15,9 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 3- Unquoted service path
 
+![Windows_priv_unquote_service](https://user-images.githubusercontent.com/55708909/92438746-fbe30800-f1c6-11ea-82ec-2f262a0941ec.png)
+
+
 4- Weak File Permissions
 
 5- Weak Service Permissions
