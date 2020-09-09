@@ -115,6 +115,8 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
         
 ![Password_mining(Configuration)](https://user-images.githubusercontent.com/55708909/92562987-7ded3280-f294-11ea-9a0e-b9551fae7529.png)
 
+![Password_mining(Configuration_1)](https://user-images.githubusercontent.com/55708909/92563469-3e731600-f295-11ea-98ad-8517e167fc2f.png)
+
             
 10- Scheduled tasks (Missing binary):
 ------------------------------------------------------------------------------------------
