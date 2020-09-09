@@ -125,6 +125,13 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 10- Scheduled tasks (Missing binary):
 ------------------------------------------------------------------------------------------
 
+        While checking for schedule task we found one of the binary missings.
+        
+ ![Windows_Priv_Esc_scheduled_task_missing_binary](https://user-images.githubusercontent.com/55708909/92596152-04b90400-f2c3-11ea-8f25-7d4b8ac8379b.png)
+       
+        
+        
+
 11- Startup applications:
 --------------------------------------------------------------------------------------------
 
