@@ -24,3 +24,18 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 4- Services( Executable files):
 
 
+5- Registry (Always installed elevated):
+
+
+6- Registry (Modified autorun): Need to have admin login to work
+
+
+7- Password minig (Registry):
+
+
+8- Password mining (Memory)
+
+
+9- Password mining (Configuration Files):
+
+
