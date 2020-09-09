@@ -22,7 +22,7 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
    
    ![Service(BIn_Path)](https://user-images.githubusercontent.com/55708909/92556310-390ecf00-f287-11ea-8a85-1af55670e7aa.png)
 
-   
+          You will see that everyone has read and write permission to change SERVICE_CHANGE_CONFIG
 
 
 2- Services (Unquoted path):
