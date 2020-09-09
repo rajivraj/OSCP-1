@@ -78,7 +78,12 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
            
 5- Registry (Always installed elevated):
 ---------------------------------------------------------------------------------------------
-
+            
+            reg query HKLM\Software\Policies\Microsoft\Windows\Installer
+            
+            reg query HKCU\Software\Policies\Microsoft\Windows\Installer
+            
+            If they gave output as 1 then this means we can create our payload in msi format and can escalate priv
 6- Registry (Modified autorun): Need to have admin login to work
 -------------------------------------------------------------------------------------------------
 
