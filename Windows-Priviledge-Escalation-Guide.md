@@ -17,6 +17,8 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 ![Windows_priv_esc_unquoted_service](https://user-images.githubusercontent.com/55708909/92546523-63a15d80-f270-11ea-8589-3159509e9cf7.png)
 
+![Windows_priv_esc_unquoted_service_1](https://user-images.githubusercontent.com/55708909/92546966-6f415400-f271-11ea-8727-9bd01310211a.png)
+
 
 4- Weak File Permissions
 
