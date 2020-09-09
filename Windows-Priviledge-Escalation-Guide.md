@@ -58,7 +58,12 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 4- Services( Executable files):
 ---------------------------------------------------------------------------------------------
+          
+           Transfer the accesschk.exe to pc and check for weak executable service
+           
+![Service(Executable)](https://user-images.githubusercontent.com/55708909/92559368-1a600680-f28e-11ea-940d-2472ece84622.png)
 
+           
 5- Registry (Always installed elevated):
 ---------------------------------------------------------------------------------------------
 
