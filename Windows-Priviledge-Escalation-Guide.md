@@ -99,6 +99,10 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 -------------------------------------------------------------------------------------------------
              
    ![REgistry_auto_run](https://user-images.githubusercontent.com/55708909/92561769-72007100-f292-11ea-919a-444e7874cd5b.png)
+   
+             As you can see everyone has read and write to program.exe this means simply replace that executable
+              
+             with your version of executable and wait for admin to login and have admin rights
 
 7- Password minig (Registry):
 -------------------------------------------------------------------------------------------
