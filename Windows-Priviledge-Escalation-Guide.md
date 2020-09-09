@@ -42,3 +42,14 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 10- Scheduled tasks (Missing binary):
 
 
+11- Startup applications:
+
+
+12- Potato attacks:
+
+
+13- DLL Hijacking:
+
+
+14-Kernel exploits:
+
