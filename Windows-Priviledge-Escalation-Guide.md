@@ -149,6 +149,7 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
         
 ![Start_up_app_1](https://user-images.githubusercontent.com/55708909/92597636-51054380-f2c5-11ea-9ddd-aa93dfbf7ab7.png)
         
+        Put the exe in mention directory and wait for admin to login to esc priv
         
 12- Potato attacks:
 --------------------------------------------------------------------------------------------
