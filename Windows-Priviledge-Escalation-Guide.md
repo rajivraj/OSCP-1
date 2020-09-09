@@ -11,6 +11,8 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 1- Default Credentials - Run winpeas to look for juicy files with short duration of time
 
+![Windows_priv_esc_password_credentials](https://user-images.githubusercontent.com/55708909/92549895-fb567a00-f277-11ea-947d-8929d12b723d.png)
+
 2- DLL Hijacking   
 
 3- Unquoted service path
