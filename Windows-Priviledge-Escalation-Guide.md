@@ -142,7 +142,14 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 11- Startup applications:
 --------------------------------------------------------------------------------------------
-
+        
+        As you can see users has full access over the mention directory and therefore can change the binary with there
+        
+        own version and thus leding to priv escalations
+        
+![Start_up_app_1](https://user-images.githubusercontent.com/55708909/92597636-51054380-f2c5-11ea-9ddd-aa93dfbf7ab7.png)
+        
+        
 12- Potato attacks:
 --------------------------------------------------------------------------------------------
 
