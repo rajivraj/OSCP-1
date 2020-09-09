@@ -140,7 +140,7 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 ![Schedule_task_missing_binary](https://user-images.githubusercontent.com/55708909/92596554-9cb6ed80-f2c3-11ea-9f13-c4a96b5ba764.png)
 
 
-11- Startup applications:
+11- Startup applications: (Need to have admin login to work)
 --------------------------------------------------------------------------------------------
         
         As you can see users has full access over the mention directory and therefore can change the binary with there
