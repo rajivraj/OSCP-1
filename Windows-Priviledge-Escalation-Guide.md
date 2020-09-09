@@ -28,6 +28,9 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 7- Always Installed Elevated
 
+![Windows_priv_esc_installed_elevated](https://user-images.githubusercontent.com/55708909/92548628-28555d80-f275-11ea-8a89-d0e79e07fe91.png)
+
+
 8- Modify Autorun files
 
 ![Windows_priv_esc_autorun](https://user-images.githubusercontent.com/55708909/92547994-8e40e580-f273-11ea-847b-915dfcc1d238.png)
