@@ -92,6 +92,9 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
             msiexec /quiet /qn /i C:\Users\user\access.msi
  
             Netcat session with admin rights
+            
+![Registry(Always_install)](https://user-images.githubusercontent.com/55708909/92560985-ef2ae680-f290-11ea-8166-aeb34190e869.png)
+            
 6- Registry (Modified autorun): Need to have admin login to work
 -------------------------------------------------------------------------------------------------
 
