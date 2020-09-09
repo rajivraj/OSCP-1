@@ -35,6 +35,13 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 2- Services (Unquoted path):
 
+          For it to work we need to identify which are the path which are not included in quotes
+          
+          wmic service get name,pathname,startmode | findstr /i /v "c:\windows\\" | findstr /i /v """
+          
+ ![Service(Unquoted_path)](https://user-images.githubusercontent.com/55708909/92557524-05817400-f28a-11ea-9d03-b9f21efc8826.png)
+
+          
 
 3- Service (Registry):
 
