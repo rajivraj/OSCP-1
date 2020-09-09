@@ -30,6 +30,9 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 8- Modify Autorun files
 
+![Windows_priv_esc_autorun](https://user-images.githubusercontent.com/55708909/92547994-8e40e580-f273-11ea-847b-915dfcc1d238.png)
+
+
 9- Potato Attacks
 
 10-Kernel exploits (git clone https://github.com/abatchy17/WindowsExploits.git)
