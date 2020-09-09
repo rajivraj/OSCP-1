@@ -39,3 +39,6 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 9- Password mining (Configuration Files):
 
 
+10- Scheduled tasks (Missing binary):
+
+
