@@ -14,13 +14,14 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 1- Services (binpath):
 
-   First transfer the accesschk64.exe to system 
+         First transfer the accesschk64.exe to system 
    
-   Run accesschk64.exe -accepteula
+         Run accesschk64.exe -accepteula
    
-   Run accesschk64.exe -wvuc "Service name"       accesschk64.exe -wvuc daclsvc
+         Run accesschk64.exe -wvuc "Service name"       accesschk64.exe -wvuc daclsvc
    
-   
+   ![Service(BIn_Path)](https://user-images.githubusercontent.com/55708909/92556310-390ecf00-f287-11ea-8a85-1af55670e7aa.png)
+
    
 
 
