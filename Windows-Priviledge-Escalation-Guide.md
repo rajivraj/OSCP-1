@@ -105,10 +105,14 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
              with your version of executable and wait for admin to login and have admin rights
 
 7- Password minig (Registry):
--------------------------------------------------------------------------------------------
+-------------------------- -----------------------------------------------------------------
 
+![Password_mining(REgistry)](https://user-images.githubusercontent.com/55708909/92564190-66af4480-f296-11ea-9139-eea67ec26650.png)
+
+             
 8- Password mining (Memory)
 -----------------------------------------------------------------------------------------
+          
 
 9- Password mining (Configuration Files):
 ------------------------------------------------------------------------------------------
