@@ -97,6 +97,8 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
             
 6- Registry (Modified autorun): Need to have admin login to work
 -------------------------------------------------------------------------------------------------
+             
+   ![REgistry_auto_run](https://user-images.githubusercontent.com/55708909/92561769-72007100-f292-11ea-919a-444e7874cd5b.png)
 
 7- Password minig (Registry):
 -------------------------------------------------------------------------------------------
