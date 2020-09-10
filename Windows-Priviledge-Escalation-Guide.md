@@ -61,7 +61,8 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
             Get-Acl -Path hklm:\System\CurrentControlSet\services\regsvc | fl
             
 ![Service_registry_1](https://user-images.githubusercontent.com/55708909/92689186-34681a80-f35c-11ea-9f43-9d23a8807143.png)
-
+ 
+            You will see that interactive has full control this means we can modify the registry with our own version
             
 4- Services( Executable files):
 ---------------------------------------------------------------------------------------------
