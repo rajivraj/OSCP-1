@@ -174,7 +174,7 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
         
         Put the exe in mention directory and wait for admin to login to esc priv
         
-12- Potato attacks:
+12- Potato attacks:(https://github.com/itm4n/PrintSpoofer.git)
 --------------------------------------------------------------------------------------------
 
 13- DLL Hijacking:
