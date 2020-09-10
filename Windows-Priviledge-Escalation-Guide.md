@@ -55,7 +55,14 @@ HERE'S HOW I APPROACH FOR ESCALATING PRIVILEDGES:
 
 3- Service (Registry):
 -------------------------------------------------------------------------------------------
+            
+            For this to work check for registry permission using this commands.
+            
+            Get-Acl -Path hklm:\System\CurrentControlSet\services\regsvc | fl
+            
+![Service_registry_1](https://user-images.githubusercontent.com/55708909/92689186-34681a80-f35c-11ea-9f43-9d23a8807143.png)
 
+            
 4- Services( Executable files):
 ---------------------------------------------------------------------------------------------
           
