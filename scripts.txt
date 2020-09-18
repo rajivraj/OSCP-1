@@ -461,3 +461,4 @@ Always run winPEAS:
                            DOMAIN:
                            DOMAIN SID:
                            KRBTGT HASH:
+https://offsec.red/mimikatz-cheat-sheet/
