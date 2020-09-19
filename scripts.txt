@@ -462,3 +462,4 @@ Always run winPEAS:
                            DOMAIN SID:
                            KRBTGT HASH:
 https://offsec.red/mimikatz-cheat-sheet/
+https://awesomeopensource.com/project/S1ckB0y1337/Active-Directory-Exploitation-Cheat-Sheet
