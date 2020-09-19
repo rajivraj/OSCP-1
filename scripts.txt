@@ -437,6 +437,7 @@ Always run winPEAS:
                            getnpusers.py  htb.local/  this will give list of usernames
                            getnpusers.py  htb.local/ -dc-ip 10.10.10.10
                            getnpusers.py  htb.local/ -dc-ip 10.10.10.10 -request           -give 
+                           ./GetNPUsers.py spookysec.local/svc-admin -dc-ip  10.10.129.20  -request
                            
                            WITH CREDENTIALS:
                            getuserspn.py htb.local/sam:password
