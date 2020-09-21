@@ -4,6 +4,11 @@ https://github.com/sc0tfree/mentalist
 
 https://github.com/digininja/pipal
 
+https://github.com/byt3bl33d3r/SprayingToolkit
+
+https://github.com/Greenwolf/Spray
+
+https://www.hackingarticles.in/category/red-teaming/
 
 Google (google.com), Shodan (shodan.io), Censys (censys.io), connect.data.com, Fierce, Recon-ng, SimplyEmail, TheHarvester, SpiderFoot (spiderfoot.net), Email Hunter (hunter.io), VirusTotal (virustotal.com), FOCA, Maltego and Pastebin (pastebin.com), 
 
