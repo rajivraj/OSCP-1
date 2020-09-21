@@ -55,8 +55,24 @@ breachalarm.com/all-sources
 leak-lookup.com/databases
 
 weleakinfo.com/data-breaches
+--------------------------------------------------
 
 EMAGNET
+
+https://github.com/adnane-X-tebbaa/Katana
+
+https://github.com/vaib25vicky/awesome-mobile-security
+
+https://github.com/HightechSec/git-scanner
+
+https://github.com/yakuza8/peniot
+
+https://github.com/yakuza8/peniot
+
+https://github.com/jaxBCD/Ultimate-Dork
+
+https://github.com/aron-tn/Mega-Bot
+
 
 
 
